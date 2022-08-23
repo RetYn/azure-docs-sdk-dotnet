@@ -39,11 +39,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string name, Azure.ResourceManager.Redis.Models.DefaultName defaultName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string name, valuetype Azure.ResourceManager.Redis.Models.DefaultName defaultName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisPatchScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Redis.Models.DefaultName)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, name As String, defaultName As DefaultName) As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * Azure.ResourceManager.Redis.Models.DefaultName -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Redis.RedisPatchScheduleResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, name, defaultName)" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string name, Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string name, valuetype Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisPatchScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, name As String, defaultName As RedisPatchScheduleDefaultName) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Redis.RedisPatchScheduleResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, name, defaultName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -56,7 +56,7 @@
         <Parameter Name="subscriptionId" Type="System.String" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.DefaultName" />
+        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName" />
       </Parameters>
       <Docs>
         <param name="subscriptionId">To be added.</param>

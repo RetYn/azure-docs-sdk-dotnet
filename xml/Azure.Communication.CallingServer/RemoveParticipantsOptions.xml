@@ -1,0 +1,59 @@
+<Type Name="RemoveParticipantsOptions" FullName="Azure.Communication.CallingServer.RemoveParticipantsOptions">
+  <TypeSignature Language="C#" Value="public class RemoveParticipantsOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RemoveParticipantsOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.RemoveParticipantsOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveParticipantsOptions" />
+  <TypeSignature Language="F#" Value="type RemoveParticipantsOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The options for removing participant from a call. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RemoveParticipantsOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.RemoveParticipantsOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Remove Participants Options
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationContext">
+      <MemberSignature Language="C#" Value="public string OperationContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperationContext" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RemoveParticipantsOptions.OperationContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationContext As String" />
+      <MemberSignature Language="F#" Value="member this.OperationContext : string with get, set" Usage="Azure.Communication.CallingServer.RemoveParticipantsOptions.OperationContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Operation Context. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -218,11 +218,11 @@
       </Docs>
     </Member>
     <Member MemberName="ExportData">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation ExportData (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ExportRDBContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation ExportData(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ExportRDBContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ExportData(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ExportRDBContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExportData (waitUntil As WaitUntil, content As ExportRDBContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member ExportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRDBContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.ExportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRDBContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="redisResource.ExportData (waitUntil, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation ExportData (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ExportRdbContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation ExportData(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ExportRdbContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ExportData(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ExportRdbContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExportData (waitUntil As WaitUntil, content As ExportRdbContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member ExportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRdbContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.ExportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRdbContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="redisResource.ExportData (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -233,7 +233,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ExportRDBContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ExportRdbContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -253,11 +253,11 @@
       </Docs>
     </Member>
     <Member MemberName="ExportDataAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; ExportDataAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ExportRDBContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; ExportDataAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ExportRDBContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ExportDataAsync(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ExportRDBContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExportDataAsync (waitUntil As WaitUntil, content As ExportRDBContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member ExportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRDBContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.ExportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRDBContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="redisResource.ExportDataAsync (waitUntil, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; ExportDataAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ExportRdbContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; ExportDataAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ExportRdbContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ExportDataAsync(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ExportRdbContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExportDataAsync (waitUntil As WaitUntil, content As ExportRdbContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member ExportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRdbContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.ExportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ExportRdbContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="redisResource.ExportDataAsync (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -268,7 +268,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ExportRDBContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ExportRdbContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -288,18 +288,18 @@
       </Docs>
     </Member>
     <Member MemberName="ForceReboot">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt; ForceReboot (Azure.ResourceManager.Redis.Models.RedisRebootContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt; ForceReboot(class Azure.ResourceManager.Redis.Models.RedisRebootContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt; ForceReboot (Azure.ResourceManager.Redis.Models.RedisRebootContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt; ForceReboot(class Azure.ResourceManager.Redis.Models.RedisRebootContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ForceReboot(Azure.ResourceManager.Redis.Models.RedisRebootContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ForceReboot (content As RedisRebootContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisForceRebootResponse)" />
-      <MemberSignature Language="F#" Value="abstract member ForceReboot : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&#xA;override this.ForceReboot : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;" Usage="redisResource.ForceReboot (content, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ForceReboot (content As RedisRebootContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisForceRebootResult)" />
+      <MemberSignature Language="F#" Value="abstract member ForceReboot : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&#xA;override this.ForceReboot : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;" Usage="redisResource.ForceReboot (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.RedisRebootContent" />
@@ -320,18 +320,18 @@
       </Docs>
     </Member>
     <Member MemberName="ForceRebootAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&gt; ForceRebootAsync (Azure.ResourceManager.Redis.Models.RedisRebootContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&gt; ForceRebootAsync(class Azure.ResourceManager.Redis.Models.RedisRebootContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt; ForceRebootAsync (Azure.ResourceManager.Redis.Models.RedisRebootContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt; ForceRebootAsync(class Azure.ResourceManager.Redis.Models.RedisRebootContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ForceRebootAsync(Azure.ResourceManager.Redis.Models.RedisRebootContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ForceRebootAsync (content As RedisRebootContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisForceRebootResponse))" />
-      <MemberSignature Language="F#" Value="abstract member ForceRebootAsync : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&gt;&#xA;override this.ForceRebootAsync : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&gt;" Usage="redisResource.ForceRebootAsync (content, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ForceRebootAsync (content As RedisRebootContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisForceRebootResult))" />
+      <MemberSignature Language="F#" Value="abstract member ForceRebootAsync : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt;&#xA;override this.ForceRebootAsync : Azure.ResourceManager.Redis.Models.RedisRebootContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt;" Usage="redisResource.ForceRebootAsync (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResponse&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.RedisRebootContent" />
@@ -609,39 +609,39 @@
       </Docs>
     </Member>
     <Member MemberName="GetRedisLinkedServerWithProperties">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesCollection GetRedisLinkedServerWithProperties ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesCollection GetRedisLinkedServerWithProperties() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection GetRedisLinkedServerWithProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection GetRedisLinkedServerWithProperties() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisLinkedServerWithProperties" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithProperties () As RedisLinkedServerWithPropertiesCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithProperties : unit -&gt; Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesCollection&#xA;override this.GetRedisLinkedServerWithProperties : unit -&gt; Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesCollection" Usage="redisResource.GetRedisLinkedServerWithProperties " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithProperties () As RedisLinkedServerWithPropertyCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithProperties : unit -&gt; Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection&#xA;override this.GetRedisLinkedServerWithProperties : unit -&gt; Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection" Usage="redisResource.GetRedisLinkedServerWithProperties " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of RedisLinkedServerWithPropertiesResources in the Redis. </summary>
-        <returns> An object representing collection of RedisLinkedServerWithPropertiesResources and their operations over a RedisLinkedServerWithPropertiesResource. </returns>
+        <summary> Gets a collection of RedisLinkedServerWithPropertyResources in the Redis. </summary>
+        <returns> An object representing collection of RedisLinkedServerWithPropertyResources and their operations over a RedisLinkedServerWithPropertyResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetRedisLinkedServerWithProperties">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt; GetRedisLinkedServerWithProperties (string linkedServerName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt; GetRedisLinkedServerWithProperties(string linkedServerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisLinkedServerWithProperties(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithProperties (linkedServerName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisLinkedServerWithPropertiesResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithProperties : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&#xA;override this.GetRedisLinkedServerWithProperties : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;" Usage="redisResource.GetRedisLinkedServerWithProperties (linkedServerName, cancellationToken)" />
+    <Member MemberName="GetRedisLinkedServerWithProperty">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt; GetRedisLinkedServerWithProperty (string linkedServerName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt; GetRedisLinkedServerWithProperty(string linkedServerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisLinkedServerWithProperty(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithProperty (linkedServerName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisLinkedServerWithPropertyResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithProperty : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&#xA;override this.GetRedisLinkedServerWithProperty : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;" Usage="redisResource.GetRedisLinkedServerWithProperty (linkedServerName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="linkedServerName" Type="System.String" />
@@ -663,19 +663,19 @@
           <paramref name="linkedServerName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetRedisLinkedServerWithPropertiesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&gt; GetRedisLinkedServerWithPropertiesAsync (string linkedServerName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&gt; GetRedisLinkedServerWithPropertiesAsync(string linkedServerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisLinkedServerWithPropertiesAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithPropertiesAsync (linkedServerName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisLinkedServerWithPropertiesResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithPropertiesAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&gt;&#xA;override this.GetRedisLinkedServerWithPropertiesAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&gt;" Usage="redisResource.GetRedisLinkedServerWithPropertiesAsync (linkedServerName, cancellationToken)" />
+    <Member MemberName="GetRedisLinkedServerWithPropertyAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt; GetRedisLinkedServerWithPropertyAsync (string linkedServerName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt; GetRedisLinkedServerWithPropertyAsync(string linkedServerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisLinkedServerWithPropertyAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisLinkedServerWithPropertyAsync (linkedServerName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisLinkedServerWithPropertyResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetRedisLinkedServerWithPropertyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt;&#xA;override this.GetRedisLinkedServerWithPropertyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt;" Usage="redisResource.GetRedisLinkedServerWithPropertyAsync (linkedServerName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertiesResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="linkedServerName" Type="System.String" />
@@ -698,11 +698,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRedisPatchSchedule">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt; GetRedisPatchSchedule (Azure.ResourceManager.Redis.Models.DefaultName defaultName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt; GetRedisPatchSchedule(valuetype Azure.ResourceManager.Redis.Models.DefaultName defaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisPatchSchedule(Azure.ResourceManager.Redis.Models.DefaultName,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisPatchSchedule (defaultName As DefaultName, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisPatchScheduleResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetRedisPatchSchedule : Azure.ResourceManager.Redis.Models.DefaultName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&#xA;override this.GetRedisPatchSchedule : Azure.ResourceManager.Redis.Models.DefaultName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;" Usage="redisResource.GetRedisPatchSchedule (defaultName, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt; GetRedisPatchSchedule (Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt; GetRedisPatchSchedule(valuetype Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisPatchSchedule(Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisPatchSchedule (defaultName As RedisPatchScheduleDefaultName, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RedisPatchScheduleResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetRedisPatchSchedule : Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&#xA;override this.GetRedisPatchSchedule : Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;" Usage="redisResource.GetRedisPatchSchedule (defaultName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -712,7 +712,7 @@
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.DefaultName" />
+        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -728,11 +728,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRedisPatchScheduleAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt; GetRedisPatchScheduleAsync (Azure.ResourceManager.Redis.Models.DefaultName defaultName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt; GetRedisPatchScheduleAsync(valuetype Azure.ResourceManager.Redis.Models.DefaultName defaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisPatchScheduleAsync(Azure.ResourceManager.Redis.Models.DefaultName,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisPatchScheduleAsync (defaultName As DefaultName, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisPatchScheduleResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetRedisPatchScheduleAsync : Azure.ResourceManager.Redis.Models.DefaultName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;&#xA;override this.GetRedisPatchScheduleAsync : Azure.ResourceManager.Redis.Models.DefaultName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;" Usage="redisResource.GetRedisPatchScheduleAsync (defaultName, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt; GetRedisPatchScheduleAsync (Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt; GetRedisPatchScheduleAsync(valuetype Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName defaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetRedisPatchScheduleAsync(Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRedisPatchScheduleAsync (defaultName As RedisPatchScheduleDefaultName, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RedisPatchScheduleResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetRedisPatchScheduleAsync : Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;&#xA;override this.GetRedisPatchScheduleAsync : Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;" Usage="redisResource.GetRedisPatchScheduleAsync (defaultName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -742,7 +742,7 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.DefaultName" />
+        <Parameter Name="defaultName" Type="Azure.ResourceManager.Redis.Models.RedisPatchScheduleDefaultName" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -868,18 +868,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetUpgradeNotifications">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt; GetUpgradeNotifications (double history, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Redis.Models.UpgradeNotification&gt; GetUpgradeNotifications(float64 history, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt; GetUpgradeNotifications (double history, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt; GetUpgradeNotifications(float64 history, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetUpgradeNotifications(System.Double,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUpgradeNotifications (history As Double, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of UpgradeNotification)" />
-      <MemberSignature Language="F#" Value="abstract member GetUpgradeNotifications : double * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;&#xA;override this.GetUpgradeNotifications : double * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;" Usage="redisResource.GetUpgradeNotifications (history, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUpgradeNotifications (history As Double, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RedisUpgradeNotification)" />
+      <MemberSignature Language="F#" Value="abstract member GetUpgradeNotifications : double * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;&#xA;override this.GetUpgradeNotifications : double * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;" Usage="redisResource.GetUpgradeNotifications (history, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="history" Type="System.Double" />
@@ -893,23 +893,23 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{name}/listUpgradeNotifications
             Operation Id: Redis_ListUpgradeNotifications
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Redis.Models.UpgradeNotification" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Redis.Models.RedisUpgradeNotification" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetUpgradeNotificationsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt; GetUpgradeNotificationsAsync (double history, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Redis.Models.UpgradeNotification&gt; GetUpgradeNotificationsAsync(float64 history, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt; GetUpgradeNotificationsAsync (double history, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt; GetUpgradeNotificationsAsync(float64 history, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.GetUpgradeNotificationsAsync(System.Double,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUpgradeNotificationsAsync (history As Double, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of UpgradeNotification)" />
-      <MemberSignature Language="F#" Value="abstract member GetUpgradeNotificationsAsync : double * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;&#xA;override this.GetUpgradeNotificationsAsync : double * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;" Usage="redisResource.GetUpgradeNotificationsAsync (history, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUpgradeNotificationsAsync (history As Double, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RedisUpgradeNotification)" />
+      <MemberSignature Language="F#" Value="abstract member GetUpgradeNotificationsAsync : double * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;&#xA;override this.GetUpgradeNotificationsAsync : double * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;" Usage="redisResource.GetUpgradeNotificationsAsync (history, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.UpgradeNotification&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="history" Type="System.Double" />
@@ -923,7 +923,7 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{name}/listUpgradeNotifications
             Operation Id: Redis_ListUpgradeNotifications
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Redis.Models.UpgradeNotification" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.Redis.Models.RedisUpgradeNotification" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -948,11 +948,11 @@
       </Docs>
     </Member>
     <Member MemberName="ImportData">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation ImportData (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ImportRDBContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation ImportData(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ImportRDBContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ImportData(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ImportRDBContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ImportData (waitUntil As WaitUntil, content As ImportRDBContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member ImportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRDBContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.ImportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRDBContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="redisResource.ImportData (waitUntil, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation ImportData (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ImportRdbContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation ImportData(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ImportRdbContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ImportData(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ImportRdbContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ImportData (waitUntil As WaitUntil, content As ImportRdbContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member ImportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRdbContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.ImportData : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRdbContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="redisResource.ImportData (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -963,7 +963,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ImportRDBContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ImportRdbContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -983,11 +983,11 @@
       </Docs>
     </Member>
     <Member MemberName="ImportDataAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; ImportDataAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ImportRDBContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; ImportDataAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ImportRDBContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ImportDataAsync(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ImportRDBContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ImportDataAsync (waitUntil As WaitUntil, content As ImportRDBContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member ImportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRDBContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.ImportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRDBContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="redisResource.ImportDataAsync (waitUntil, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; ImportDataAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Redis.Models.ImportRdbContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; ImportDataAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Redis.Models.ImportRdbContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisResource.ImportDataAsync(Azure.WaitUntil,Azure.ResourceManager.Redis.Models.ImportRdbContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ImportDataAsync (waitUntil As WaitUntil, content As ImportRdbContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member ImportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRdbContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.ImportDataAsync : Azure.WaitUntil * Azure.ResourceManager.Redis.Models.ImportRdbContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="redisResource.ImportDataAsync (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
@@ -998,7 +998,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ImportRDBContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Redis.Models.ImportRdbContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

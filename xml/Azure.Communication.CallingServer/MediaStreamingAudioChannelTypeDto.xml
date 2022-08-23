@@ -1,0 +1,270 @@
+<Type Name="MediaStreamingAudioChannelTypeDto" FullName="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto">
+  <TypeSignature Language="C#" Value="public readonly struct MediaStreamingAudioChannelTypeDto : IEquatable&lt;Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit MediaStreamingAudioChannelTypeDto extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+  <TypeSignature Language="VB.NET" Value="Public Structure MediaStreamingAudioChannelTypeDto&#xA;Implements IEquatable(Of MediaStreamingAudioChannelTypeDto)" />
+  <TypeSignature Language="F#" Value="type MediaStreamingAudioChannelTypeDto = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Audio channel type to stream, eg. unmixed audio, mixed audio. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaStreamingAudioChannelTypeDto (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto : string -&gt; Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" Usage="new Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Equals(Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As MediaStreamingAudioChannelTypeDto) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto -&gt; bool" Usage="mediaStreamingAudioChannelTypeDto.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="mediaStreamingAudioChannelTypeDto.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="mediaStreamingAudioChannelTypeDto.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mixed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto Mixed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto Mixed" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Mixed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Mixed As MediaStreamingAudioChannelTypeDto" />
+      <MemberSignature Language="F#" Value="static member Mixed : Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" Usage="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Mixed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> mixed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto left, Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto left, valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.op_Equality(Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto,Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As MediaStreamingAudioChannelTypeDto, right As MediaStreamingAudioChannelTypeDto) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto * Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+        <Parameter Name="right" Type="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.op_Implicit(System.String)~Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As MediaStreamingAudioChannelTypeDto" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" Usage="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto left, Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto left, valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.op_Inequality(Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto,Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As MediaStreamingAudioChannelTypeDto, right As MediaStreamingAudioChannelTypeDto) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto * Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto -&gt; bool" Usage="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+        <Parameter Name="right" Type="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="mediaStreamingAudioChannelTypeDto.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unmixed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto Unmixed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto Unmixed" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Unmixed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Unmixed As MediaStreamingAudioChannelTypeDto" />
+      <MemberSignature Language="F#" Value="static member Unmixed : Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto" Usage="Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto.Unmixed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.MediaStreamingAudioChannelTypeDto</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> unmixed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

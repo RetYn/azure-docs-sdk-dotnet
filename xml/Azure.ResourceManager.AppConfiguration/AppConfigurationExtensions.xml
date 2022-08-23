@@ -18,22 +18,22 @@
   </Docs>
   <Members>
     <Member MemberName="CheckAppConfigurationNameAvailability">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt; CheckAppConfigurationNameAvailability (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt; CheckAppConfigurationNameAvailability(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckAppConfigurationNameAvailability (subscriptionResource As SubscriptionResource, content As CheckNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NameAvailabilityStatus)" />
-      <MemberSignature Language="F#" Value="static member CheckAppConfigurationNameAvailability : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailability (subscriptionResource, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt; CheckAppConfigurationNameAvailability (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt; CheckAppConfigurationNameAvailability(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckAppConfigurationNameAvailability (subscriptionResource As SubscriptionResource, content As AppConfigurationNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AppConfigurationNameAvailabilityResult)" />
+      <MemberSignature Language="F#" Value="static member CheckAppConfigurationNameAvailability : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailability (subscriptionResource, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="content" Type="Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -52,22 +52,22 @@
       </Docs>
     </Member>
     <Member MemberName="CheckAppConfigurationNameAvailabilityAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;&gt; CheckAppConfigurationNameAvailabilityAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;&gt; CheckAppConfigurationNameAvailabilityAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckAppConfigurationNameAvailabilityAsync (subscriptionResource As SubscriptionResource, content As CheckNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NameAvailabilityStatus))" />
-      <MemberSignature Language="F#" Value="static member CheckAppConfigurationNameAvailabilityAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailabilityAsync (subscriptionResource, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;&gt; CheckAppConfigurationNameAvailabilityAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;&gt; CheckAppConfigurationNameAvailabilityAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckAppConfigurationNameAvailabilityAsync (subscriptionResource As SubscriptionResource, content As AppConfigurationNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AppConfigurationNameAvailabilityResult))" />
+      <MemberSignature Language="F#" Value="static member CheckAppConfigurationNameAvailabilityAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.CheckAppConfigurationNameAvailabilityAsync (subscriptionResource, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.NameAvailabilityStatus&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="content" Type="Azure.ResourceManager.AppConfiguration.Models.CheckNameAvailabilityContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -83,6 +83,35 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppConfigurationKeyValueResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource GetAppConfigurationKeyValueResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource GetAppConfigurationKeyValueResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationKeyValueResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationKeyValueResource (client As ArmClient, id As ResourceIdentifier) As AppConfigurationKeyValueResource" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationKeyValueResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationKeyValueResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /> object. </returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAppConfigurationPrivateEndpointConnectionResource">
@@ -143,19 +172,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStore">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStore (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStore(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStore(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStore (resourceGroupResource As ResourceGroupResource, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ConfigurationStoreResource)" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStore : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStore (resourceGroupResource, configStoreName, cancellationToken)" />
+    <Member MemberName="GetAppConfigurationStore">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStore (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStore(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStore(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStore (resourceGroupResource As ResourceGroupResource, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AppConfigurationStoreResource)" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStore : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStore (resourceGroupResource, configStoreName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -179,19 +208,19 @@
           <paramref name="configStoreName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStoreAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;&gt; GetConfigurationStoreAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;&gt; GetConfigurationStoreAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoreAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStoreAsync (resourceGroupResource As ResourceGroupResource, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ConfigurationStoreResource))" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStoreAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoreAsync (resourceGroupResource, configStoreName, cancellationToken)" />
+    <Member MemberName="GetAppConfigurationStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt; GetAppConfigurationStoreAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt; GetAppConfigurationStoreAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoreAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStoreAsync (resourceGroupResource As ResourceGroupResource, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AppConfigurationStoreResource))" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStoreAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoreAsync (resourceGroupResource, configStoreName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -215,19 +244,19 @@
           <paramref name="configStoreName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStoreResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource GetConfigurationStoreResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource GetConfigurationStoreResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoreResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStoreResource (client As ArmClient, id As ResourceIdentifier) As ConfigurationStoreResource" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStoreResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoreResource (client, id)" />
+    <Member MemberName="GetAppConfigurationStoreResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource GetAppConfigurationStoreResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource GetAppConfigurationStoreResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoreResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStoreResource (client As ArmClient, id As ResourceIdentifier) As AppConfigurationStoreResource" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStoreResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoreResource (client, id)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource</ReturnType>
+        <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
@@ -237,50 +266,50 @@
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" /> object. </returns>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStores">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.ConfigurationStoreCollection GetConfigurationStores (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.ConfigurationStoreCollection GetConfigurationStores(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStores(Azure.ResourceManager.Resources.ResourceGroupResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStores (resourceGroupResource As ResourceGroupResource) As ConfigurationStoreCollection" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStores : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.AppConfiguration.ConfigurationStoreCollection" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStores resourceGroupResource" />
+    <Member MemberName="GetAppConfigurationStores">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.AppConfigurationStoreCollection GetAppConfigurationStores (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreCollection GetAppConfigurationStores(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStores(Azure.ResourceManager.Resources.ResourceGroupResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStores (resourceGroupResource As ResourceGroupResource) As AppConfigurationStoreCollection" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStores : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.AppConfiguration.AppConfigurationStoreCollection" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStores resourceGroupResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AppConfiguration.ConfigurationStoreCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationStoreCollection</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ConfigurationStoreResources in the ResourceGroupResource. </summary>
-        <returns> An object representing collection of ConfigurationStoreResources and their operations over a ConfigurationStoreResource. </returns>
+        <summary> Gets a collection of AppConfigurationStoreResources in the ResourceGroupResource. </summary>
+        <returns> An object representing collection of AppConfigurationStoreResources and their operations over a AppConfigurationStoreResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStores">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStores (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStores(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStores(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStores (subscriptionResource As SubscriptionResource, Optional skipToken As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ConfigurationStoreResource)" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStores : Azure.ResourceManager.Resources.SubscriptionResource * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStores (subscriptionResource, skipToken, cancellationToken)" />
+    <Member MemberName="GetAppConfigurationStores">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStores (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStores(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStores(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStores (subscriptionResource As SubscriptionResource, Optional skipToken As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AppConfigurationStoreResource)" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStores : Azure.ResourceManager.Resources.SubscriptionResource * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStores (subscriptionResource, skipToken, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
@@ -296,23 +325,23 @@
             Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores
             Operation Id: ConfigurationStores_List
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetConfigurationStoresAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStoresAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt; GetConfigurationStoresAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoresAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConfigurationStoresAsync (subscriptionResource As SubscriptionResource, Optional skipToken As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ConfigurationStoreResource)" />
-      <MemberSignature Language="F#" Value="static member GetConfigurationStoresAsync : Azure.ResourceManager.Resources.SubscriptionResource * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetConfigurationStoresAsync (subscriptionResource, skipToken, cancellationToken)" />
+    <Member MemberName="GetAppConfigurationStoresAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStoresAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt; GetAppConfigurationStoresAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string skipToken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoresAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppConfigurationStoresAsync (subscriptionResource As SubscriptionResource, Optional skipToken As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AppConfigurationStoreResource)" />
+      <MemberSignature Language="F#" Value="static member GetAppConfigurationStoresAsync : Azure.ResourceManager.Resources.SubscriptionResource * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetAppConfigurationStoresAsync (subscriptionResource, skipToken, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
@@ -328,23 +357,23 @@
             Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores
             Operation Id: ConfigurationStores_List
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppConfiguration.ConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDeletedConfigurationStore">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt; GetDeletedConfigurationStore (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt; GetDeletedConfigurationStore(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStore(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedConfigurationStore (subscriptionResource As SubscriptionResource, location As AzureLocation, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DeletedConfigurationStoreResource)" />
-      <MemberSignature Language="F#" Value="static member GetDeletedConfigurationStore : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStore (subscriptionResource, location, configStoreName, cancellationToken)" />
+    <Member MemberName="GetDeletedAppConfigurationStore">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt; GetDeletedAppConfigurationStore (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt; GetDeletedAppConfigurationStore(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStore(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedAppConfigurationStore (subscriptionResource As SubscriptionResource, location As AzureLocation, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DeletedAppConfigurationStoreResource)" />
+      <MemberSignature Language="F#" Value="static member GetDeletedAppConfigurationStore : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStore (subscriptionResource, location, configStoreName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
@@ -370,19 +399,19 @@
           <paramref name="configStoreName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetDeletedConfigurationStoreAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;&gt; GetDeletedConfigurationStoreAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;&gt; GetDeletedConfigurationStoreAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStoreAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedConfigurationStoreAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DeletedConfigurationStoreResource))" />
-      <MemberSignature Language="F#" Value="static member GetDeletedConfigurationStoreAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStoreAsync (subscriptionResource, location, configStoreName, cancellationToken)" />
+    <Member MemberName="GetDeletedAppConfigurationStoreAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;&gt; GetDeletedAppConfigurationStoreAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string configStoreName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;&gt; GetDeletedAppConfigurationStoreAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string configStoreName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStoreAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedAppConfigurationStoreAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, configStoreName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DeletedAppConfigurationStoreResource))" />
+      <MemberSignature Language="F#" Value="static member GetDeletedAppConfigurationStoreAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;&gt;" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStoreAsync (subscriptionResource, location, configStoreName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
@@ -408,19 +437,19 @@
           <paramref name="configStoreName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetDeletedConfigurationStoreResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource GetDeletedConfigurationStoreResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource GetDeletedConfigurationStoreResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStoreResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedConfigurationStoreResource (client As ArmClient, id As ResourceIdentifier) As DeletedConfigurationStoreResource" />
-      <MemberSignature Language="F#" Value="static member GetDeletedConfigurationStoreResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStoreResource (client, id)" />
+    <Member MemberName="GetDeletedAppConfigurationStoreResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource GetDeletedAppConfigurationStoreResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource GetDeletedAppConfigurationStoreResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStoreResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedAppConfigurationStoreResource (client As ArmClient, id As ResourceIdentifier) As DeletedAppConfigurationStoreResource" />
+      <MemberSignature Language="F#" Value="static member GetDeletedAppConfigurationStoreResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStoreResource (client, id)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource</ReturnType>
+        <ReturnType>Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
@@ -430,63 +459,34 @@
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            Gets an object representing a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreResource" /> object. </returns>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDeletedConfigurationStores">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreCollection GetDeletedConfigurationStores (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreCollection GetDeletedConfigurationStores(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStores(Azure.ResourceManager.Resources.SubscriptionResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedConfigurationStores (subscriptionResource As SubscriptionResource) As DeletedConfigurationStoreCollection" />
-      <MemberSignature Language="F#" Value="static member GetDeletedConfigurationStores : Azure.ResourceManager.Resources.SubscriptionResource -&gt; Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreCollection" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedConfigurationStores subscriptionResource" />
+    <Member MemberName="GetDeletedAppConfigurationStores">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreCollection GetDeletedAppConfigurationStores (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreCollection GetDeletedAppConfigurationStores(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStores(Azure.ResourceManager.Resources.SubscriptionResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedAppConfigurationStores (subscriptionResource As SubscriptionResource) As DeletedAppConfigurationStoreCollection" />
+      <MemberSignature Language="F#" Value="static member GetDeletedAppConfigurationStores : Azure.ResourceManager.Resources.SubscriptionResource -&gt; Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreCollection" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetDeletedAppConfigurationStores subscriptionResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AppConfiguration.DeletedConfigurationStoreCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreCollection</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DeletedConfigurationStoreResources in the SubscriptionResource. </summary>
-        <returns> An object representing collection of DeletedConfigurationStoreResources and their operations over a DeletedConfigurationStoreResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetKeyValueResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppConfiguration.KeyValueResource GetKeyValueResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppConfiguration.KeyValueResource GetKeyValueResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetKeyValueResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetKeyValueResource (client As ArmClient, id As ResourceIdentifier) As KeyValueResource" />
-      <MemberSignature Language="F#" Value="static member GetKeyValueResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.AppConfiguration.KeyValueResource" Usage="Azure.ResourceManager.AppConfiguration.AppConfigurationExtensions.GetKeyValueResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AppConfiguration.KeyValueResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.AppConfiguration.KeyValueResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.AppConfiguration.KeyValueResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppConfiguration.KeyValueResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.KeyValueResource" /> object. </returns>
+        <summary> Gets a collection of DeletedAppConfigurationStoreResources in the SubscriptionResource. </summary>
+        <returns> An object representing collection of DeletedAppConfigurationStoreResources and their operations over a DeletedAppConfigurationStoreResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

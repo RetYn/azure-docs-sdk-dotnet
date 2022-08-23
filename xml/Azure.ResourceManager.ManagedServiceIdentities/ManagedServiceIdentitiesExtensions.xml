@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedServiceIdentities.SystemAssignedIdentityResource</ReturnType>
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedServiceIdentities.SystemAssignedIdentityResource</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityCollection</ReturnType>
@@ -104,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource&gt;</ReturnType>
@@ -134,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource&gt;</ReturnType>
@@ -164,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource&gt;</ReturnType>
@@ -200,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource&gt;&gt;</ReturnType>
@@ -236,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedServiceIdentities</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedServiceIdentities.UserAssignedIdentityResource</ReturnType>

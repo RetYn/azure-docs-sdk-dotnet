@@ -1,0 +1,14 @@
+{
+  "Name": "Azure.ResourceManager.RedisEnterprise",
+  "Version": "1.0.0-alpha.20220824.1",
+  "DevVersion": "1.0.0-alpha.20220824.1",
+  "DirectoryPath": "sdk/redisenterprise/Azure.ResourceManager.RedisEnterprise",
+  "ServiceDirectory": "redisenterprise",
+  "ReadMePath": "sdk/redisenterprise/Azure.ResourceManager.RedisEnterprise/README.md",
+  "ChangeLogPath": "sdk/redisenterprise/Azure.ResourceManager.RedisEnterprise/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.RedisEnterprise",
+  "ReleaseStatus": "Unreleased"
+}

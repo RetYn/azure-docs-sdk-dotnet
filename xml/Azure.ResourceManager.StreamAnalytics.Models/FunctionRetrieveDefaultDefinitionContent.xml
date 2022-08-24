@@ -16,7 +16,7 @@
     <summary>
             Parameters used to specify the type of function to retrieve the default definition for.
             Please note <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.FunctionRetrieveDefaultDefinitionContent" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.AzureMachineLearningStudioFunctionRetrieveDefaultDefinitionParameters" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.AzureMachineLearningServiceFunctionRetrieveDefaultDefinitionParameters" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.CSharpFunctionRetrieveDefaultDefinitionParameters" /> and <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.JavaScriptFunctionRetrieveDefaultDefinitionParameters" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.MachineLearningStudioFunctionRetrieveDefaultDefinitionContent" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.MachineLearningServiceFunctionRetrieveDefaultDefinitionContent" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.CSharpFunctionRetrieveDefaultDefinitionContent" /> and <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.JavaScriptFunctionRetrieveDefaultDefinitionContent" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

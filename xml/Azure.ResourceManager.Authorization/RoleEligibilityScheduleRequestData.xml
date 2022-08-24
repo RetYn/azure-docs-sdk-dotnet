@@ -113,6 +113,46 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan? Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; Duration" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.Duration : Nullable&lt;TimeSpan&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Duration of the role eligibility schedule in TimeSpan. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? EndOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; EndOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.EndOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.EndOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.EndOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> End DateTime of the role eligibility schedule. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ExpandedProperties">
       <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.ExpandedProperties ExpandedProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Authorization.Models.ExpandedProperties ExpandedProperties" />
@@ -129,6 +169,26 @@
       </ReturnValue>
       <Docs>
         <summary> Additional properties of principal, scope and role definition. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpirationType">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleExpirationType? ExpirationType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleExpirationType&gt; ExpirationType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.ExpirationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpirationType As Nullable(Of RoleEligibilityScheduleExpirationType)" />
+      <MemberSignature Language="F#" Value="member this.ExpirationType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleExpirationType&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.ExpirationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleExpirationType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Type of the role eligibility schedule expiration. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,18 +214,18 @@
       </Docs>
     </Member>
     <Member MemberName="PrincipalId">
-      <MemberSignature Language="C#" Value="public string PrincipalId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PrincipalId" />
+      <MemberSignature Language="C#" Value="public Guid? PrincipalId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PrincipalId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalId" />
-      <MemberSignature Language="VB.NET" Value="Public Property PrincipalId As String" />
-      <MemberSignature Language="F#" Value="member this.PrincipalId : string with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrincipalId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.PrincipalId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The principal ID. </summary>
@@ -174,18 +234,18 @@
       </Docs>
     </Member>
     <Member MemberName="PrincipalType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.PrincipalType? PrincipalType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.PrincipalType&gt; PrincipalType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilitySchedulePrincipalType? PrincipalType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleEligibilitySchedulePrincipalType&gt; PrincipalType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalType" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalType As Nullable(Of PrincipalType)" />
-      <MemberSignature Language="F#" Value="member this.PrincipalType : Nullable&lt;Azure.ResourceManager.Authorization.Models.PrincipalType&gt;" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalType As Nullable(Of RoleEligibilitySchedulePrincipalType)" />
+      <MemberSignature Language="F#" Value="member this.PrincipalType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilitySchedulePrincipalType&gt;" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.PrincipalType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.PrincipalType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilitySchedulePrincipalType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The principal type of the assigned principal ID. </summary>
@@ -194,18 +254,18 @@
       </Docs>
     </Member>
     <Member MemberName="RequestorId">
-      <MemberSignature Language="C#" Value="public string RequestorId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string RequestorId" />
+      <MemberSignature Language="C#" Value="public Guid? RequestorId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; RequestorId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestorId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestorId As String" />
-      <MemberSignature Language="F#" Value="member this.RequestorId : string" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestorId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestorId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.RequestorId : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestorId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Id of the user who created this request. </summary>
@@ -214,18 +274,18 @@
       </Docs>
     </Member>
     <Member MemberName="RequestType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RequestType? RequestType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RequestType&gt; RequestType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestType? RequestType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestType&gt; RequestType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestType" />
-      <MemberSignature Language="VB.NET" Value="Public Property RequestType As Nullable(Of RequestType)" />
-      <MemberSignature Language="F#" Value="member this.RequestType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RequestType&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestType As Nullable(Of RoleEligibilityScheduleRequestType)" />
+      <MemberSignature Language="F#" Value="member this.RequestType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestType&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.RequestType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RequestType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The type of the role assignment schedule request. Eg: SelfActivate, AdminAssign etc. </summary>
@@ -253,26 +313,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ScheduleInfo">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestPropertiesScheduleInfo ScheduleInfo { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestPropertiesScheduleInfo ScheduleInfo" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.ScheduleInfo" />
-      <MemberSignature Language="VB.NET" Value="Public Property ScheduleInfo As RoleEligibilityScheduleRequestPropertiesScheduleInfo" />
-      <MemberSignature Language="F#" Value="member this.ScheduleInfo : Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestPropertiesScheduleInfo with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.ScheduleInfo" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestPropertiesScheduleInfo</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Schedule info of the role eligibility schedule. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Scope">
       <MemberSignature Language="C#" Value="public string Scope { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
@@ -293,19 +333,39 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Status">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestStatus? Status { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestStatus&gt; Status" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Status" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of RoleEligibilityScheduleRequestStatus)" />
-      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestStatus&gt;" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Status" />
+    <Member MemberName="StartOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? StartOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; StartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.StartOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.StartOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.StartOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleRequestStatus&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Start DateTime of the role eligibility schedule. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleStatus? Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleStatus&gt; Status" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of RoleEligibilityScheduleStatus)" />
+      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleStatus&gt;" Usage="Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleEligibilityScheduleStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The status of the role eligibility schedule request. </summary>

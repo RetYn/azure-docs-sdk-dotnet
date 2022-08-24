@@ -39,11 +39,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string scope, string roleDefinitionId);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string scope, string roleDefinitionId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (scope As String, roleDefinitionId As String) As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier (scope, roleDefinitionId)" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string scope, Azure.Core.ResourceIdentifier roleDefinitionId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string scope, class Azure.Core.ResourceIdentifier roleDefinitionId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier(System.String,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (scope As String, roleDefinitionId As ResourceIdentifier) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * Azure.Core.ResourceIdentifier -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier (scope, roleDefinitionId)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
@@ -54,7 +54,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="scope" Type="System.String" />
-        <Parameter Name="roleDefinitionId" Type="System.String" />
+        <Parameter Name="roleDefinitionId" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="scope">To be added.</param>

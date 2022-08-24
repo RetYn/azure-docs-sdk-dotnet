@@ -93,7 +93,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Additional properties of the operation result..
+            Additional properties of the operation result.
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>

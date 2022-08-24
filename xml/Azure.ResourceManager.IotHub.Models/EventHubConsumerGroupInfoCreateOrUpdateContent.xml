@@ -18,33 +18,33 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public EventHubConsumerGroupInfoCreateOrUpdateContent (Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupName properties);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupName properties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.#ctor(Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupName)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (properties As EventHubConsumerGroupName)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent : Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupName -&gt; Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent" Usage="new Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent properties" />
+      <MemberSignature Language="C#" Value="public EventHubConsumerGroupInfoCreateOrUpdateContent (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent : string -&gt; Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent" Usage="new Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent name" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotHub</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="properties" Type="Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupName" />
+        <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="properties"> The EventHub consumer group name. </param>
+        <param name="name"> EventHub consumer group name. </param>
         <summary> Initializes a new instance of EventHubConsumerGroupInfoCreateOrUpdateContent. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="properties" /> is null. </exception>
+          <paramref name="name" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="EventHubConsumerGroupName">
-      <MemberSignature Language="C#" Value="public string EventHubConsumerGroupName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string EventHubConsumerGroupName" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.EventHubConsumerGroupName" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventHubConsumerGroupName As String" />
-      <MemberSignature Language="F#" Value="member this.EventHubConsumerGroupName : string" Usage="Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.EventHubConsumerGroupName" />
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Azure.ResourceManager.IotHub.Models.EventHubConsumerGroupInfoCreateOrUpdateContent.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotHub</AssemblyName>

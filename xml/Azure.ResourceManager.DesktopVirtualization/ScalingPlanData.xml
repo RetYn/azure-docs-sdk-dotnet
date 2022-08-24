@@ -158,21 +158,21 @@
       </Docs>
     </Member>
     <Member MemberName="Identity">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity Identity { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity Identity" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.ManagedServiceIdentity Identity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.ManagedServiceIdentity Identity" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.ScalingPlanData.Identity" />
-      <MemberSignature Language="VB.NET" Value="Public Property Identity As ResourceModelWithAllowedPropertySetIdentity" />
-      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.ScalingPlanData.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identity As ManagedServiceIdentity" />
+      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.Models.ManagedServiceIdentity with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.ScalingPlanData.Identity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity</ReturnType>
+        <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets or sets the identity. </summary>
+        <summary> Gets or sets the identity. Current supported identity types: SystemAssigned. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

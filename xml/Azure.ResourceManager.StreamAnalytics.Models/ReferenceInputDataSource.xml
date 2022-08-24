@@ -16,7 +16,7 @@
     <summary>
             Describes an input data source that contains reference data.
             Please note <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.ReferenceInputDataSource" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.AzureSqlReferenceInputDataSource" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.BlobReferenceInputDataSource" /> and <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.RawReferenceInputDataSource" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.SqlReferenceInputDataSource" />, <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.BlobReferenceInputDataSource" /> and <see cref="T:Azure.ResourceManager.StreamAnalytics.Models.RawReferenceInputDataSource" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

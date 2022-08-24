@@ -77,19 +77,43 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetAzurePermissionsForResourceGroups">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourceGroups (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourceGroups(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroups(Azure.ResourceManager.Resources.ResourceGroupResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourceGroups (resourceGroupResource As ResourceGroupResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AzurePermission)" />
-      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourceGroups : Azure.ResourceManager.Resources.ResourceGroupResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroups (resourceGroupResource, cancellationToken)" />
+    <Member MemberName="GetAllProviderOperationsMetadata">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.ProviderOperationsMetadataCollection GetAllProviderOperationsMetadata (this Azure.ResourceManager.Resources.TenantResource tenantResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.ProviderOperationsMetadataCollection GetAllProviderOperationsMetadata(class Azure.ResourceManager.Resources.TenantResource tenantResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAllProviderOperationsMetadata(Azure.ResourceManager.Resources.TenantResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAllProviderOperationsMetadata (tenantResource As TenantResource) As ProviderOperationsMetadataCollection" />
+      <MemberSignature Language="F#" Value="static member GetAllProviderOperationsMetadata : Azure.ResourceManager.Resources.TenantResource -&gt; Azure.ResourceManager.Authorization.ProviderOperationsMetadataCollection" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAllProviderOperationsMetadata tenantResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;</ReturnType>
+        <ReturnType>Azure.ResourceManager.Authorization.ProviderOperationsMetadataCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
+        <summary> Gets a collection of ProviderOperationsMetadataResources in the TenantResource. </summary>
+        <returns> An object representing collection of ProviderOperationsMetadataResources and their operations over a ProviderOperationsMetadataResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzurePermissionsForResourceGroups">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourceGroups (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourceGroups(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroups(Azure.ResourceManager.Resources.ResourceGroupResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourceGroups (resourceGroupResource As ResourceGroupResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RoleDefinitionPermission)" />
+      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourceGroups : Azure.ResourceManager.Resources.ResourceGroupResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroups (resourceGroupResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -103,23 +127,23 @@
             Request Path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Authorization/permissions
             Operation Id: AzurePermissionsForResourceGroup_List
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Authorization.Models.AzurePermission" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAzurePermissionsForResourceGroupsAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourceGroupsAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourceGroupsAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourceGroupsAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourceGroupsAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroupsAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourceGroupsAsync (resourceGroupResource As ResourceGroupResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AzurePermission)" />
-      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourceGroupsAsync : Azure.ResourceManager.Resources.ResourceGroupResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroupsAsync (resourceGroupResource, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourceGroupsAsync (resourceGroupResource As ResourceGroupResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RoleDefinitionPermission)" />
+      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourceGroupsAsync : Azure.ResourceManager.Resources.ResourceGroupResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourceGroupsAsync (resourceGroupResource, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -133,23 +157,23 @@
             Request Path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Authorization/permissions
             Operation Id: AzurePermissionsForResourceGroup_List
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Authorization.Models.AzurePermission" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAzurePermissionsForResources">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResources (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResources(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResources (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResources(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResources(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResources (resourceGroupResource As ResourceGroupResource, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AzurePermission)" />
-      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResources : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResources (resourceGroupResource, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResources (resourceGroupResource As ResourceGroupResource, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RoleDefinitionPermission)" />
+      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResources : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResources (resourceGroupResource, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -171,27 +195,27 @@
             Request Path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{parentResourcePath}/{resourceType}/{resourceName}/providers/Microsoft.Authorization/permissions
             Operation Id: AzurePermissionsForResource_List
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Authorization.Models.AzurePermission" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="resourceProviderNamespace" /> or <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceProviderNamespace" />, <paramref name="parentResourcePath" />, <paramref name="resourceType" /> or <paramref name="resourceName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAzurePermissionsForResourcesAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourcesAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Authorization.Models.AzurePermission&gt; GetAzurePermissionsForResourcesAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourcesAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt; GetAzurePermissionsForResourcesAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourcesAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourcesAsync (resourceGroupResource As ResourceGroupResource, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AzurePermission)" />
-      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourcesAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * string * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourcesAsync (resourceGroupResource, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAzurePermissionsForResourcesAsync (resourceGroupResource As ResourceGroupResource, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RoleDefinitionPermission)" />
+      <MemberSignature Language="F#" Value="static member GetAzurePermissionsForResourcesAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * string * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetAzurePermissionsForResourcesAsync (resourceGroupResource, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.AzurePermission&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
@@ -213,10 +237,10 @@
             Request Path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{parentResourcePath}/{resourceType}/{resourceName}/providers/Microsoft.Authorization/permissions
             Operation Id: AzurePermissionsForResource_List
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Authorization.Models.AzurePermission" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.Authorization.Models.RoleDefinitionPermission" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="resourceProviderNamespace" /> or <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceProviderNamespace" />, <paramref name="parentResourcePath" />, <paramref name="resourceType" /> or <paramref name="resourceName" /> is null. </exception>
       </Docs>
@@ -281,119 +305,91 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetProviderOperations">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.ProviderOperationsCollection GetProviderOperations (this Azure.ResourceManager.Resources.TenantResource tenantResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.ProviderOperationsCollection GetProviderOperations(class Azure.ResourceManager.Resources.TenantResource tenantResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperations(Azure.ResourceManager.Resources.TenantResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperations (tenantResource As TenantResource) As ProviderOperationsCollection" />
-      <MemberSignature Language="F#" Value="static member GetProviderOperations : Azure.ResourceManager.Resources.TenantResource -&gt; Azure.ResourceManager.Authorization.ProviderOperationsCollection" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperations tenantResource" />
+    <Member MemberName="GetDenyAssignment">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt; GetDenyAssignment (this Azure.ResourceManager.ArmResource armResource, string denyAssignmentId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.DenyAssignmentResource&gt; GetDenyAssignment(class Azure.ResourceManager.ArmResource armResource, string denyAssignmentId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignment(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDenyAssignment (armResource As ArmResource, denyAssignmentId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DenyAssignmentResource)" />
+      <MemberSignature Language="F#" Value="static member GetDenyAssignment : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignment (armResource, denyAssignmentId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.ProviderOperationsCollection</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
-      </Parameters>
-      <Docs>
-        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ProviderOperationsResources in the TenantResource. </summary>
-        <returns> An object representing collection of ProviderOperationsResources and their operations over a ProviderOperationsResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetProviderOperations">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt; GetProviderOperations (this Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.ProviderOperationsResource&gt; GetProviderOperations(class Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperations(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperations (tenantResource As TenantResource, resourceProviderNamespace As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ProviderOperationsResource)" />
-      <MemberSignature Language="F#" Value="static member GetProviderOperations : Azure.ResourceManager.Resources.TenantResource * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperations (tenantResource, resourceProviderNamespace, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
-        <Parameter Name="resourceProviderNamespace" Type="System.String" />
-        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
+        <Parameter Name="denyAssignmentId" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
-        <param name="resourceProviderNamespace"> The namespace of the resource provider. </param>
-        <param name="expand"> Specifies whether to expand the values. </param>
+        <param name="armResource"> The <see cref="T:Azure.ResourceManager.ArmResource" /> instance the method will execute against. </param>
+        <param name="denyAssignmentId"> The ID of the deny assignment to get. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Gets provider operations metadata for the specified resource provider.
-            Request Path: /providers/Microsoft.Authorization/providerOperations/{resourceProviderNamespace}
-            Operation Id: ProviderOperationsMetadata_Get
+            Get the specified deny assignment.
+            Request Path: /{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}
+            Operation Id: DenyAssignments_Get
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="resourceProviderNamespace" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="denyAssignmentId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceProviderNamespace" /> is null. </exception>
+          <paramref name="denyAssignmentId" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetProviderOperationsAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;&gt; GetProviderOperationsAsync (this Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;&gt; GetProviderOperationsAsync(class Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperationsAsync (tenantResource As TenantResource, resourceProviderNamespace As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ProviderOperationsResource))" />
-      <MemberSignature Language="F#" Value="static member GetProviderOperationsAsync : Azure.ResourceManager.Resources.TenantResource * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsAsync (tenantResource, resourceProviderNamespace, expand, cancellationToken)" />
+    <Member MemberName="GetDenyAssignmentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt; GetDenyAssignmentAsync (this Azure.ResourceManager.ArmResource armResource, string denyAssignmentId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt; GetDenyAssignmentAsync(class Azure.ResourceManager.ArmResource armResource, string denyAssignmentId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignmentAsync(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDenyAssignmentAsync (armResource As ArmResource, denyAssignmentId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DenyAssignmentResource))" />
+      <MemberSignature Language="F#" Value="static member GetDenyAssignmentAsync : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignmentAsync (armResource, denyAssignmentId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
-        <Parameter Name="resourceProviderNamespace" Type="System.String" />
-        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
+        <Parameter Name="denyAssignmentId" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
-        <param name="resourceProviderNamespace"> The namespace of the resource provider. </param>
-        <param name="expand"> Specifies whether to expand the values. </param>
+        <param name="armResource"> The <see cref="T:Azure.ResourceManager.ArmResource" /> instance the method will execute against. </param>
+        <param name="denyAssignmentId"> The ID of the deny assignment to get. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Gets provider operations metadata for the specified resource provider.
-            Request Path: /providers/Microsoft.Authorization/providerOperations/{resourceProviderNamespace}
-            Operation Id: ProviderOperationsMetadata_Get
+            Get the specified deny assignment.
+            Request Path: /{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}
+            Operation Id: DenyAssignments_Get
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="resourceProviderNamespace" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="denyAssignmentId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceProviderNamespace" /> is null. </exception>
+          <paramref name="denyAssignmentId" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetProviderOperationsResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.ProviderOperationsResource GetProviderOperationsResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.ProviderOperationsResource GetProviderOperationsResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperationsResource (client As ArmClient, id As ResourceIdentifier) As ProviderOperationsResource" />
-      <MemberSignature Language="F#" Value="static member GetProviderOperationsResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Authorization.ProviderOperationsResource" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsResource (client, id)" />
+    <Member MemberName="GetDenyAssignmentResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.DenyAssignmentResource GetDenyAssignmentResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.DenyAssignmentResource GetDenyAssignmentResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignmentResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDenyAssignmentResource (client As ArmClient, id As ResourceIdentifier) As DenyAssignmentResource" />
+      <MemberSignature Language="F#" Value="static member GetDenyAssignmentResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Authorization.DenyAssignmentResource" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignmentResource (client, id)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.ProviderOperationsResource</ReturnType>
+        <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentResource</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
@@ -403,19 +399,144 @@
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Authorization.ProviderOperationsResource.CreateResourceIdentifier(System.String)" /> to create a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            Gets an object representing a <see cref="T:Azure.ResourceManager.Authorization.DenyAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.Authorization.DenyAssignmentResource.CreateResourceIdentifier(System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Authorization.DenyAssignmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsResource" /> object. </returns>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.Authorization.DenyAssignmentResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDenyAssignments">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.DenyAssignmentCollection GetDenyAssignments (this Azure.ResourceManager.ArmResource armResource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.DenyAssignmentCollection GetDenyAssignments(class Azure.ResourceManager.ArmResource armResource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignments(Azure.ResourceManager.ArmResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDenyAssignments (armResource As ArmResource) As DenyAssignmentCollection" />
+      <MemberSignature Language="F#" Value="static member GetDenyAssignments : Azure.ResourceManager.ArmResource -&gt; Azure.ResourceManager.Authorization.DenyAssignmentCollection" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetDenyAssignments armResource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="armResource"> The <see cref="T:Azure.ResourceManager.ArmResource" /> instance the method will execute against. </param>
+        <summary> Gets a collection of DenyAssignmentResources in the ArmResource. </summary>
+        <returns> An object representing collection of DenyAssignmentResources and their operations over a DenyAssignmentResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProviderOperationsMetadata">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt; GetProviderOperationsMetadata (this Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt; GetProviderOperationsMetadata(class Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadata(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperationsMetadata (tenantResource As TenantResource, resourceProviderNamespace As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ProviderOperationsMetadataResource)" />
+      <MemberSignature Language="F#" Value="static member GetProviderOperationsMetadata : Azure.ResourceManager.Resources.TenantResource * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadata (tenantResource, resourceProviderNamespace, expand, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
+        <param name="resourceProviderNamespace"> The namespace of the resource provider. </param>
+        <param name="expand"> Specifies whether to expand the values. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets provider operations metadata for the specified resource provider.
+            Request Path: /providers/Microsoft.Authorization/providerOperations/{resourceProviderNamespace}
+            Operation Id: ProviderOperationsMetadata_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceProviderNamespace" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProviderOperationsMetadataAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;&gt; GetProviderOperationsMetadataAsync (this Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;&gt; GetProviderOperationsMetadataAsync(class Azure.ResourceManager.Resources.TenantResource tenantResource, string resourceProviderNamespace, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadataAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperationsMetadataAsync (tenantResource As TenantResource, resourceProviderNamespace As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ProviderOperationsMetadataResource))" />
+      <MemberSignature Language="F#" Value="static member GetProviderOperationsMetadataAsync : Azure.ResourceManager.Resources.TenantResource * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadataAsync (tenantResource, resourceProviderNamespace, expand, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenantResource" Type="Azure.ResourceManager.Resources.TenantResource" RefType="this" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
+        <param name="resourceProviderNamespace"> The namespace of the resource provider. </param>
+        <param name="expand"> Specifies whether to expand the values. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets provider operations metadata for the specified resource provider.
+            Request Path: /providers/Microsoft.Authorization/providerOperations/{resourceProviderNamespace}
+            Operation Id: ProviderOperationsMetadata_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceProviderNamespace" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProviderOperationsMetadataResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource GetProviderOperationsMetadataResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource GetProviderOperationsMetadataResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadataResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProviderOperationsMetadataResource (client As ArmClient, id As ResourceIdentifier) As ProviderOperationsMetadataResource" />
+      <MemberSignature Language="F#" Value="static member GetProviderOperationsMetadataResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetProviderOperationsMetadataResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource.CreateResourceIdentifier(System.String)" /> to create a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.Authorization.ProviderOperationsMetadataResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRoleAssignment">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt; GetRoleAssignment (this Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleAssignmentResource&gt; GetRoleAssignment(class Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignment(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleAssignment (armResource As ArmResource, roleAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RoleAssignmentResource)" />
-      <MemberSignature Language="F#" Value="static member GetRoleAssignment : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignment (armResource, roleAssignmentName, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt; GetRoleAssignment (this Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, string tenantId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleAssignmentResource&gt; GetRoleAssignment(class Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, string tenantId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignment(Azure.ResourceManager.ArmResource,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleAssignment (armResource As ArmResource, roleAssignmentName As String, Optional tenantId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RoleAssignmentResource)" />
+      <MemberSignature Language="F#" Value="static member GetRoleAssignment : Azure.ResourceManager.ArmResource * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignment (armResource, roleAssignmentName, tenantId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
@@ -427,31 +548,31 @@
       <Parameters>
         <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
         <Parameter Name="roleAssignmentName" Type="System.String" />
+        <Parameter Name="tenantId" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="armResource"> The <see cref="T:Azure.ResourceManager.ArmResource" /> instance the method will execute against. </param>
-        <param name="roleAssignmentName"> The name of the role assignment to get. </param>
+        <param name="roleAssignmentName"> The name of the role assignment. It can be any valid GUID. </param>
+        <param name="tenantId"> Tenant ID for cross-tenant request. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get the specified role assignment.
+            Get a role assignment by scope and name.
             Request Path: /{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}
             Operation Id: RoleAssignments_Get
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="roleAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="roleAssignmentName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRoleAssignmentAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt; GetRoleAssignmentAsync (this Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt; GetRoleAssignmentAsync(class Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignmentAsync(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleAssignmentAsync (armResource As ArmResource, roleAssignmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RoleAssignmentResource))" />
-      <MemberSignature Language="F#" Value="static member GetRoleAssignmentAsync : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignmentAsync (armResource, roleAssignmentName, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt; GetRoleAssignmentAsync (this Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, string tenantId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt; GetRoleAssignmentAsync(class Azure.ResourceManager.ArmResource armResource, string roleAssignmentName, string tenantId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignmentAsync(Azure.ResourceManager.ArmResource,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleAssignmentAsync (armResource As ArmResource, roleAssignmentName As String, Optional tenantId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RoleAssignmentResource))" />
+      <MemberSignature Language="F#" Value="static member GetRoleAssignmentAsync : Azure.ResourceManager.ArmResource * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleAssignmentAsync (armResource, roleAssignmentName, tenantId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
@@ -463,21 +584,21 @@
       <Parameters>
         <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
         <Parameter Name="roleAssignmentName" Type="System.String" />
+        <Parameter Name="tenantId" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="armResource"> The <see cref="T:Azure.ResourceManager.ArmResource" /> instance the method will execute against. </param>
-        <param name="roleAssignmentName"> The name of the role assignment to get. </param>
+        <param name="roleAssignmentName"> The name of the role assignment. It can be any valid GUID. </param>
+        <param name="tenantId"> Tenant ID for cross-tenant request. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get the specified role assignment.
+            Get a role assignment by scope and name.
             Request Path: /{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}
             Operation Id: RoleAssignments_Get
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="roleAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="roleAssignmentName" /> is null. </exception>
       </Docs>
@@ -911,11 +1032,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRoleDefinition">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt; GetRoleDefinition (this Azure.ResourceManager.ArmResource armResource, string roleDefinitionId, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleDefinitionResource&gt; GetRoleDefinition(class Azure.ResourceManager.ArmResource armResource, string roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinition(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleDefinition (armResource As ArmResource, roleDefinitionId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RoleDefinitionResource)" />
-      <MemberSignature Language="F#" Value="static member GetRoleDefinition : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinition (armResource, roleDefinitionId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt; GetRoleDefinition (this Azure.ResourceManager.ArmResource armResource, Azure.Core.ResourceIdentifier roleDefinitionId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleDefinitionResource&gt; GetRoleDefinition(class Azure.ResourceManager.ArmResource armResource, class Azure.Core.ResourceIdentifier roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinition(Azure.ResourceManager.ArmResource,Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleDefinition (armResource As ArmResource, roleDefinitionId As ResourceIdentifier, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RoleDefinitionResource)" />
+      <MemberSignature Language="F#" Value="static member GetRoleDefinition : Azure.ResourceManager.ArmResource * Azure.Core.ResourceIdentifier * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinition (armResource, roleDefinitionId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
@@ -926,7 +1047,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
-        <Parameter Name="roleDefinitionId" Type="System.String" />
+        <Parameter Name="roleDefinitionId" Type="Azure.Core.ResourceIdentifier" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -940,18 +1061,16 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="roleDefinitionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="roleDefinitionId" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRoleDefinitionAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt; GetRoleDefinitionAsync (this Azure.ResourceManager.ArmResource armResource, string roleDefinitionId, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt; GetRoleDefinitionAsync(class Azure.ResourceManager.ArmResource armResource, string roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinitionAsync(Azure.ResourceManager.ArmResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleDefinitionAsync (armResource As ArmResource, roleDefinitionId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RoleDefinitionResource))" />
-      <MemberSignature Language="F#" Value="static member GetRoleDefinitionAsync : Azure.ResourceManager.ArmResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinitionAsync (armResource, roleDefinitionId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt; GetRoleDefinitionAsync (this Azure.ResourceManager.ArmResource armResource, Azure.Core.ResourceIdentifier roleDefinitionId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt; GetRoleDefinitionAsync(class Azure.ResourceManager.ArmResource armResource, class Azure.Core.ResourceIdentifier roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinitionAsync(Azure.ResourceManager.ArmResource,Azure.Core.ResourceIdentifier,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRoleDefinitionAsync (armResource As ArmResource, roleDefinitionId As ResourceIdentifier, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RoleDefinitionResource))" />
+      <MemberSignature Language="F#" Value="static member GetRoleDefinitionAsync : Azure.ResourceManager.ArmResource * Azure.Core.ResourceIdentifier * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleDefinitionResource&gt;&gt;" Usage="Azure.ResourceManager.Authorization.AuthorizationExtensions.GetRoleDefinitionAsync (armResource, roleDefinitionId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
@@ -962,7 +1081,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="armResource" Type="Azure.ResourceManager.ArmResource" RefType="this" />
-        <Parameter Name="roleDefinitionId" Type="System.String" />
+        <Parameter Name="roleDefinitionId" Type="Azure.Core.ResourceIdentifier" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -976,8 +1095,6 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="roleDefinitionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="roleDefinitionId" /> is null. </exception>
       </Docs>
@@ -1005,7 +1122,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Authorization.RoleDefinitionResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier(System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Authorization.RoleDefinitionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Authorization.RoleDefinitionResource.CreateResourceIdentifier(System.String,Azure.Core.ResourceIdentifier)" /> to create a <see cref="T:Azure.ResourceManager.Authorization.RoleDefinitionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Authorization.RoleDefinitionResource" /> object. </returns>
         <remarks>To be added.</remarks>

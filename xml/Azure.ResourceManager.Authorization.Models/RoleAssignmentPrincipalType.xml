@@ -1,0 +1,330 @@
+<Type Name="RoleAssignmentPrincipalType" FullName="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType">
+  <TypeSignature Language="C#" Value="public readonly struct RoleAssignmentPrincipalType : IEquatable&lt;Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit RoleAssignmentPrincipalType extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+  <TypeSignature Language="VB.NET" Value="Public Structure RoleAssignmentPrincipalType&#xA;Implements IEquatable(Of RoleAssignmentPrincipalType)" />
+  <TypeSignature Language="F#" Value="type RoleAssignmentPrincipalType = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The principal type of the assigned principal ID. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RoleAssignmentPrincipalType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType : string -&gt; Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="new Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Device">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType Device { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType Device" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Device" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Device As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member Device : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Device" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Device. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Equals(Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As RoleAssignmentPrincipalType) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType -&gt; bool" Usage="roleAssignmentPrincipalType.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="roleAssignmentPrincipalType.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeignGroup">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType ForeignGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType ForeignGroup" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.ForeignGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ForeignGroup As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member ForeignGroup : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.ForeignGroup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> ForeignGroup. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="roleAssignmentPrincipalType.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Group">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType Group { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType Group" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Group" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Group As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member Group : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.Group" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Group. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType left, Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType left, valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.op_Equality(Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType,Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As RoleAssignmentPrincipalType, right As RoleAssignmentPrincipalType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType * Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.op_Implicit(System.String)~Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType left, Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType left, valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.op_Inequality(Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType,Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As RoleAssignmentPrincipalType, right As RoleAssignmentPrincipalType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType * Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType -&gt; bool" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServicePrincipal">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType ServicePrincipal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType ServicePrincipal" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.ServicePrincipal" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ServicePrincipal As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member ServicePrincipal : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.ServicePrincipal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> ServicePrincipal. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="roleAssignmentPrincipalType.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType User { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType User" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.User" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property User As RoleAssignmentPrincipalType" />
+      <MemberSignature Language="F#" Value="static member User : Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType.User" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentPrincipalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> User. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

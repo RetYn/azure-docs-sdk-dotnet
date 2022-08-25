@@ -33,12 +33,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ExpirationOn">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpirationOn { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpirationOn" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.RegistrationInfoPatch.ExpirationOn" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExpirationOn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ExpirationOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.RegistrationInfoPatch.ExpirationOn" />
+    <Member MemberName="ExpireOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpireOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpireOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.RegistrationInfoPatch.ExpireOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpireOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExpireOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.RegistrationInfoPatch.ExpireOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>

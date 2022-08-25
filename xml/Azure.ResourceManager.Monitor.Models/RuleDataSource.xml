@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> The resource from which the rule collects its data. </summary>
+    <summary>
+            The resource from which the rule collects its data.
+            Please note <see cref="T:Azure.ResourceManager.Monitor.Models.RuleDataSource" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Monitor.Models.RuleManagementEventDataSource" /> and <see cref="T:Azure.ResourceManager.Monitor.Models.RuleMetricDataSource" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -34,18 +38,18 @@
       </Docs>
     </Member>
     <Member MemberName="LegacyResourceId">
-      <MemberSignature Language="C#" Value="public string LegacyResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LegacyResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier LegacyResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier LegacyResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Monitor.Models.RuleDataSource.LegacyResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property LegacyResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.LegacyResourceId : string with get, set" Usage="Azure.ResourceManager.Monitor.Models.RuleDataSource.LegacyResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property LegacyResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.LegacyResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Monitor.Models.RuleDataSource.LegacyResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> the legacy resource identifier of the resource the rule monitors. **NOTE**: this property cannot be updated for an existing rule. </summary>
@@ -74,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceId">
-      <MemberSignature Language="C#" Value="public string ResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Monitor.Models.RuleDataSource.ResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property ResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.ResourceId : string with get, set" Usage="Azure.ResourceManager.Monitor.Models.RuleDataSource.ResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Monitor.Models.RuleDataSource.ResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> the resource identifier of the resource the rule monitors. **NOTE**: this property cannot be updated for an existing rule. </summary>

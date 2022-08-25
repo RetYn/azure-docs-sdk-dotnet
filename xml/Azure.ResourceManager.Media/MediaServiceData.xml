@@ -78,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="KeyDeliveryAccessControl">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.AccessControl KeyDeliveryAccessControl { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Media.Models.AccessControl KeyDeliveryAccessControl" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.MediaAccessControl KeyDeliveryAccessControl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Media.Models.MediaAccessControl KeyDeliveryAccessControl" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceData.KeyDeliveryAccessControl" />
-      <MemberSignature Language="VB.NET" Value="Public Property KeyDeliveryAccessControl As AccessControl" />
-      <MemberSignature Language="F#" Value="member this.KeyDeliveryAccessControl : Azure.ResourceManager.Media.Models.AccessControl with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.KeyDeliveryAccessControl" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyDeliveryAccessControl As MediaAccessControl" />
+      <MemberSignature Language="F#" Value="member this.KeyDeliveryAccessControl : Azure.ResourceManager.Media.Models.MediaAccessControl with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.KeyDeliveryAccessControl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Media.Models.AccessControl</ReturnType>
+        <ReturnType>Azure.ResourceManager.Media.Models.MediaAccessControl</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The access control properties for Key Delivery. </summary>
@@ -138,18 +138,18 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.ProvisioningState? ProvisioningState { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.ProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.MediaProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.MediaProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Media.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.Media.MediaServiceData.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of MediaProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Media.Models.MediaProvisioningState&gt;" Usage="Azure.ResourceManager.Media.MediaServiceData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.MediaProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Provisioning state of the Media Services account. </summary>
@@ -158,18 +158,18 @@
       </Docs>
     </Member>
     <Member MemberName="PublicNetworkAccess">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.PublicNetworkAccess? PublicNetworkAccess { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.PublicNetworkAccess&gt; PublicNetworkAccess" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.MediaPublicNetworkAccessStatus? PublicNetworkAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.MediaPublicNetworkAccessStatus&gt; PublicNetworkAccess" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceData.PublicNetworkAccess" />
-      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of PublicNetworkAccess)" />
-      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.Media.Models.PublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.PublicNetworkAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of MediaPublicNetworkAccessStatus)" />
+      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.Media.Models.MediaPublicNetworkAccessStatus&gt; with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.PublicNetworkAccess" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.PublicNetworkAccess&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.MediaPublicNetworkAccessStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Whether or not public network access is allowed for resources under the Media Services account. </summary>
@@ -178,18 +178,18 @@
       </Docs>
     </Member>
     <Member MemberName="StorageAccounts">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.StorageAccount&gt; StorageAccounts { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.Media.Models.StorageAccount&gt; StorageAccounts" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.MediaServiceStorageAccount&gt; StorageAccounts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.Media.Models.MediaServiceStorageAccount&gt; StorageAccounts" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceData.StorageAccounts" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageAccounts As IList(Of StorageAccount)" />
-      <MemberSignature Language="F#" Value="member this.StorageAccounts : System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.StorageAccount&gt;" Usage="Azure.ResourceManager.Media.MediaServiceData.StorageAccounts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageAccounts As IList(Of MediaServiceStorageAccount)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccounts : System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.MediaServiceStorageAccount&gt;" Usage="Azure.ResourceManager.Media.MediaServiceData.StorageAccounts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.StorageAccount&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Media.Models.MediaServiceStorageAccount&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The storage accounts for this resource. </summary>
@@ -198,18 +198,18 @@
       </Docs>
     </Member>
     <Member MemberName="StorageAuthentication">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.StorageAuthentication? StorageAuthentication { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.StorageAuthentication&gt; StorageAuthentication" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.MediaStorageAuthentication? StorageAuthentication { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.MediaStorageAuthentication&gt; StorageAuthentication" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceData.StorageAuthentication" />
-      <MemberSignature Language="VB.NET" Value="Public Property StorageAuthentication As Nullable(Of StorageAuthentication)" />
-      <MemberSignature Language="F#" Value="member this.StorageAuthentication : Nullable&lt;Azure.ResourceManager.Media.Models.StorageAuthentication&gt; with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.StorageAuthentication" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAuthentication As Nullable(Of MediaStorageAuthentication)" />
+      <MemberSignature Language="F#" Value="member this.StorageAuthentication : Nullable&lt;Azure.ResourceManager.Media.Models.MediaStorageAuthentication&gt; with get, set" Usage="Azure.ResourceManager.Media.MediaServiceData.StorageAuthentication" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.StorageAuthentication&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.MediaStorageAuthentication&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets the storage authentication. </summary>

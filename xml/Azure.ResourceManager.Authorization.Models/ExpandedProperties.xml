@@ -1,15 +1,15 @@
 <Type Name="ExpandedProperties" FullName="Azure.ResourceManager.Authorization.Models.ExpandedProperties">
-  <TypeSignature Language="C#" Value="public class ExpandedProperties" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExpandedProperties extends System.Object" />
+  <TypeSignature Language="C#" Value="public class ExpandedProperties : Azure.ResourceManager.Models.TrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExpandedProperties extends Azure.ResourceManager.Models.TrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Authorization.Models.ExpandedProperties" />
-  <TypeSignature Language="VB.NET" Value="Public Class ExpandedProperties" />
-  <TypeSignature Language="F#" Value="type ExpandedProperties = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandedProperties&#xA;Inherits TrackedResourceData" />
+  <TypeSignature Language="F#" Value="type ExpandedProperties = class&#xA;    inherit TrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -17,62 +17,202 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="Principal">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.ExpandedPropertiesPrincipal Principal { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Authorization.Models.ExpandedPropertiesPrincipal Principal" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.Principal" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Principal As ExpandedPropertiesPrincipal" />
-      <MemberSignature Language="F#" Value="member this.Principal : Azure.ResourceManager.Authorization.Models.ExpandedPropertiesPrincipal" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.Principal" />
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public string Email { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Email" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.Email" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Email As String" />
+      <MemberSignature Language="F#" Value="member this.Email : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.Email" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.Models.ExpandedPropertiesPrincipal</ReturnType>
+        <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Details of the principal. </summary>
+        <summary> Email id of the principal. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="RoleDefinition">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.ExpandedPropertiesRoleDefinition RoleDefinition { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Authorization.Models.ExpandedPropertiesRoleDefinition RoleDefinition" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinition" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoleDefinition As ExpandedPropertiesRoleDefinition" />
-      <MemberSignature Language="F#" Value="member this.RoleDefinition : Azure.ResourceManager.Authorization.Models.ExpandedPropertiesRoleDefinition" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinition" />
+    <Member MemberName="PrincipalDisplayName">
+      <MemberSignature Language="C#" Value="public string PrincipalDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrincipalDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.PrincipalDisplayName : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalDisplayName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.Models.ExpandedPropertiesRoleDefinition</ReturnType>
+        <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Details of role definition. </summary>
+        <summary> Display name of the principal. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Scope">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.ExpandedPropertiesScope Scope { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Authorization.Models.ExpandedPropertiesScope Scope" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.Scope" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As ExpandedPropertiesScope" />
-      <MemberSignature Language="F#" Value="member this.Scope : Azure.ResourceManager.Authorization.Models.ExpandedPropertiesScope" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.Scope" />
+    <Member MemberName="PrincipalId">
+      <MemberSignature Language="C#" Value="public Guid? PrincipalId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PrincipalId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.PrincipalId : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Authorization.Models.ExpandedPropertiesScope</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Details of the resource scope. </summary>
+        <summary> Id of the principal. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalType">
+      <MemberSignature Language="C#" Value="public string PrincipalType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrincipalType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalType As String" />
+      <MemberSignature Language="F#" Value="member this.PrincipalType : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.PrincipalType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Type of the principal. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoleDefinitionDisplayName">
+      <MemberSignature Language="C#" Value="public string RoleDefinitionDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoleDefinitionDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoleDefinitionDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.RoleDefinitionDisplayName : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Display name of the role definition. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoleDefinitionId">
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier RoleDefinitionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier RoleDefinitionId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoleDefinitionId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.RoleDefinitionId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Id of the role definition. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoleDefinitionType">
+      <MemberSignature Language="C#" Value="public string RoleDefinitionType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoleDefinitionType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoleDefinitionType As String" />
+      <MemberSignature Language="F#" Value="member this.RoleDefinitionType : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.RoleDefinitionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Type of the role definition. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopeDisplayName">
+      <MemberSignature Language="C#" Value="public string ScopeDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ScopeDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScopeDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.ScopeDisplayName : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Display name of the resource. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopeId">
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ScopeId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ScopeId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScopeId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ScopeId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Scope id of the resource. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopeType">
+      <MemberSignature Language="C#" Value="public string ScopeType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ScopeType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScopeType As String" />
+      <MemberSignature Language="F#" Value="member this.ScopeType : string" Usage="Azure.ResourceManager.Authorization.Models.ExpandedProperties.ScopeType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Type of the resource. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

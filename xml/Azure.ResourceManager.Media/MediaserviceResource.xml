@@ -1,9 +1,9 @@
-<Type Name="MediaserviceResource" FullName="Azure.ResourceManager.Media.MediaserviceResource">
-  <TypeSignature Language="C#" Value="public class MediaserviceResource : Azure.ResourceManager.ArmResource" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaserviceResource extends Azure.ResourceManager.ArmResource" />
-  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Media.MediaserviceResource" />
-  <TypeSignature Language="VB.NET" Value="Public Class MediaserviceResource&#xA;Inherits ArmResource" />
-  <TypeSignature Language="F#" Value="type MediaserviceResource = class&#xA;    inherit ArmResource" />
+<Type Name="MediaServiceResource" FullName="Azure.ResourceManager.Media.MediaServiceResource">
+  <TypeSignature Language="C#" Value="public class MediaServiceResource : Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaServiceResource extends Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Media.MediaServiceResource" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaServiceResource&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type MediaServiceResource = class&#xA;    inherit ArmResource" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -14,18 +14,18 @@
   <Interfaces />
   <Docs>
     <summary>
-            A Class representing a Mediaservice along with the instance operations that can be performed on it.
-            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.Media.MediaserviceResource" />
-            from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetMediaserviceResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetMediaservice method.
+            A Class representing a MediaService along with the instance operations that can be performed on it.
+            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.Media.MediaServiceResource" />
+            from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetMediaServiceResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetMediaService method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected MediaserviceResource ();" />
+      <MemberSignature Language="C#" Value="protected MediaServiceResource ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.#ctor" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -34,23 +34,23 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.Media.MediaserviceResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.Media.MediaServiceResource" /> class for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="AddTag">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt; AddTag (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt; AddTag(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTag (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaserviceResource)" />
-      <MemberSignature Language="F#" Value="abstract member AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&#xA;override this.AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;" Usage="mediaserviceResource.AddTag (key, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt; AddTag (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt; AddTag(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.AddTag(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTag (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaServiceResource)" />
+      <MemberSignature Language="F#" Value="abstract member AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&#xA;override this.AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;" Usage="mediaServiceResource.AddTag (key, value, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="System.String" />
@@ -73,18 +73,18 @@
       </Docs>
     </Member>
     <Member MemberName="AddTagAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; AddTagAsync (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; AddTagAsync(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTagAsync (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaserviceResource))" />
-      <MemberSignature Language="F#" Value="abstract member AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;&#xA;override this.AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;" Usage="mediaserviceResource.AddTagAsync (key, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; AddTagAsync (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; AddTagAsync(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTagAsync (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaServiceResource))" />
+      <MemberSignature Language="F#" Value="abstract member AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;&#xA;override this.AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;" Usage="mediaServiceResource.AddTagAsync (key, value, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="System.String" />
@@ -109,9 +109,9 @@
     <Member MemberName="CreateResourceIdentifier">
       <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string accountName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string accountName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.CreateResourceIdentifier(System.String,System.String,System.String)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.CreateResourceIdentifier(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, accountName As String) As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Media.MediaserviceResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, accountName)" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Media.MediaServiceResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, accountName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -129,7 +129,7 @@
         <param name="subscriptionId">To be added.</param>
         <param name="resourceGroupName">To be added.</param>
         <param name="accountName">To be added.</param>
-        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Media.MediaserviceResource" /> instance. </summary>
+        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Media.MediaServiceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,9 +137,9 @@
     <Member MemberName="Data">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.MediaServiceData Data { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Media.MediaServiceData Data" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaserviceResource.Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceResource.Data" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As MediaServiceData" />
-      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.Media.MediaServiceData" Usage="Azure.ResourceManager.Media.MediaserviceResource.Data" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.Media.MediaServiceData" Usage="Azure.ResourceManager.Media.MediaServiceResource.Data" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -158,9 +158,9 @@
     <Member MemberName="Delete">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation Delete (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation Delete(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="mediaserviceResource.Delete (waitUntil, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="mediaServiceResource.Delete (waitUntil, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -189,9 +189,9 @@
     <Member MemberName="DeleteAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; DeleteAsync (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; DeleteAsync(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="mediaserviceResource.DeleteAsync (waitUntil, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="mediaServiceResource.DeleteAsync (waitUntil, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -218,18 +218,18 @@
       </Docs>
     </Member>
     <Member MemberName="Get">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.Get(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaserviceResource)" />
-      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;" Usage="mediaserviceResource.Get cancellationToken" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaServiceResource)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;" Usage="mediaServiceResource.Get cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -248,9 +248,9 @@
     <Member MemberName="GetAccountFilter">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt; GetAccountFilter (string filterName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.AccountFilterResource&gt; GetAccountFilter(string filterName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAccountFilter(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetAccountFilter(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAccountFilter (filterName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AccountFilterResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAccountFilter : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&#xA;override this.GetAccountFilter : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;" Usage="mediaserviceResource.GetAccountFilter (filterName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetAccountFilter : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&#xA;override this.GetAccountFilter : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;" Usage="mediaServiceResource.GetAccountFilter (filterName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -282,9 +282,9 @@
     <Member MemberName="GetAccountFilterAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&gt; GetAccountFilterAsync (string filterName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.AccountFilterResource&gt;&gt; GetAccountFilterAsync(string filterName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAccountFilterAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetAccountFilterAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAccountFilterAsync (filterName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AccountFilterResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAccountFilterAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&gt;&#xA;override this.GetAccountFilterAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&gt;" Usage="mediaserviceResource.GetAccountFilterAsync (filterName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetAccountFilterAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&gt;&#xA;override this.GetAccountFilterAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AccountFilterResource&gt;&gt;" Usage="mediaServiceResource.GetAccountFilterAsync (filterName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -316,9 +316,9 @@
     <Member MemberName="GetAccountFilters">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.AccountFilterCollection GetAccountFilters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.AccountFilterCollection GetAccountFilters() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAccountFilters" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetAccountFilters" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAccountFilters () As AccountFilterCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAccountFilters : unit -&gt; Azure.ResourceManager.Media.AccountFilterCollection&#xA;override this.GetAccountFilters : unit -&gt; Azure.ResourceManager.Media.AccountFilterCollection" Usage="mediaserviceResource.GetAccountFilters " />
+      <MemberSignature Language="F#" Value="abstract member GetAccountFilters : unit -&gt; Azure.ResourceManager.Media.AccountFilterCollection&#xA;override this.GetAccountFilters : unit -&gt; Azure.ResourceManager.Media.AccountFilterCollection" Usage="mediaServiceResource.GetAccountFilters " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -329,113 +329,24 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AccountFilterResources in the Mediaservice. </summary>
+        <summary> Gets a collection of AccountFilterResources in the MediaService. </summary>
         <returns> An object representing collection of AccountFilterResources and their operations over a AccountFilterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetAsset">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt; GetAsset (string assetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.AssetResource&gt; GetAsset(string assetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAsset(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsset (assetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AssetResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAsset : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;&#xA;override this.GetAsset : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;" Usage="mediaserviceResource.GetAsset (assetName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assetName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="assetName"> The Asset name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the details of an Asset in the Media Services account
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/assets/{assetName}
-            Operation Id: Assets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAssetAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;&gt; GetAssetAsync (string assetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.AssetResource&gt;&gt; GetAssetAsync(string assetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAssetAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAssetAsync (assetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AssetResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAssetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;&gt;&#xA;override this.GetAssetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;&gt;" Usage="mediaserviceResource.GetAssetAsync (assetName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.AssetResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assetName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="assetName"> The Asset name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get the details of an Asset in the Media Services account
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/assets/{assetName}
-            Operation Id: Assets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAssets">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.AssetCollection GetAssets ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.AssetCollection GetAssets() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAssets" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAssets () As AssetCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAssets : unit -&gt; Azure.ResourceManager.Media.AssetCollection&#xA;override this.GetAssets : unit -&gt; Azure.ResourceManager.Media.AssetCollection" Usage="mediaserviceResource.GetAssets " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Media.AssetCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AssetResources in the Mediaservice. </summary>
-        <returns> An object representing collection of AssetResources and their operations over a AssetResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaserviceResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;" Usage="mediaserviceResource.GetAsync cancellationToken" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaServiceResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;" Usage="mediaServiceResource.GetAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -454,9 +365,9 @@
     <Member MemberName="GetContentKeyPolicies">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.ContentKeyPolicyCollection GetContentKeyPolicies ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.ContentKeyPolicyCollection GetContentKeyPolicies() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetContentKeyPolicies" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetContentKeyPolicies" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentKeyPolicies () As ContentKeyPolicyCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicies : unit -&gt; Azure.ResourceManager.Media.ContentKeyPolicyCollection&#xA;override this.GetContentKeyPolicies : unit -&gt; Azure.ResourceManager.Media.ContentKeyPolicyCollection" Usage="mediaserviceResource.GetContentKeyPolicies " />
+      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicies : unit -&gt; Azure.ResourceManager.Media.ContentKeyPolicyCollection&#xA;override this.GetContentKeyPolicies : unit -&gt; Azure.ResourceManager.Media.ContentKeyPolicyCollection" Usage="mediaServiceResource.GetContentKeyPolicies " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -467,7 +378,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ContentKeyPolicyResources in the Mediaservice. </summary>
+        <summary> Gets a collection of ContentKeyPolicyResources in the MediaService. </summary>
         <returns> An object representing collection of ContentKeyPolicyResources and their operations over a ContentKeyPolicyResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -475,9 +386,9 @@
     <Member MemberName="GetContentKeyPolicy">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt; GetContentKeyPolicy (string contentKeyPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.ContentKeyPolicyResource&gt; GetContentKeyPolicy(string contentKeyPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetContentKeyPolicy(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetContentKeyPolicy(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentKeyPolicy (contentKeyPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ContentKeyPolicyResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&#xA;override this.GetContentKeyPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;" Usage="mediaserviceResource.GetContentKeyPolicy (contentKeyPolicyName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&#xA;override this.GetContentKeyPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;" Usage="mediaServiceResource.GetContentKeyPolicy (contentKeyPolicyName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -509,9 +420,9 @@
     <Member MemberName="GetContentKeyPolicyAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt; GetContentKeyPolicyAsync (string contentKeyPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt; GetContentKeyPolicyAsync(string contentKeyPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetContentKeyPolicyAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetContentKeyPolicyAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentKeyPolicyAsync (contentKeyPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ContentKeyPolicyResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt;&#xA;override this.GetContentKeyPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt;" Usage="mediaserviceResource.GetContentKeyPolicyAsync (contentKeyPolicyName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetContentKeyPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt;&#xA;override this.GetContentKeyPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.ContentKeyPolicyResource&gt;&gt;" Usage="mediaServiceResource.GetContentKeyPolicyAsync (contentKeyPolicyName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -541,11 +452,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetEdgePolicies">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt; GetEdgePolicies (Azure.ResourceManager.Media.Models.ListEdgePoliciesContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.EdgePolicies&gt; GetEdgePolicies(class Azure.ResourceManager.Media.Models.ListEdgePoliciesContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetEdgePolicies(Azure.ResourceManager.Media.Models.ListEdgePoliciesContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEdgePolicies (content As ListEdgePoliciesContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of EdgePolicies)" />
-      <MemberSignature Language="F#" Value="abstract member GetEdgePolicies : Azure.ResourceManager.Media.Models.ListEdgePoliciesContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&#xA;override this.GetEdgePolicies : Azure.ResourceManager.Media.Models.ListEdgePoliciesContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;" Usage="mediaserviceResource.GetEdgePolicies (content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt; GetEdgePolicies (Azure.ResourceManager.Media.Models.GetEdgePoliciesContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.EdgePolicies&gt; GetEdgePolicies(class Azure.ResourceManager.Media.Models.GetEdgePoliciesContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetEdgePolicies(Azure.ResourceManager.Media.Models.GetEdgePoliciesContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEdgePolicies (content As GetEdgePoliciesContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of EdgePolicies)" />
+      <MemberSignature Language="F#" Value="abstract member GetEdgePolicies : Azure.ResourceManager.Media.Models.GetEdgePoliciesContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&#xA;override this.GetEdgePolicies : Azure.ResourceManager.Media.Models.GetEdgePoliciesContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;" Usage="mediaServiceResource.GetEdgePolicies (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -555,7 +466,7 @@
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Media.Models.ListEdgePoliciesContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Media.Models.GetEdgePoliciesContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -573,11 +484,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetEdgePoliciesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt; GetEdgePoliciesAsync (Azure.ResourceManager.Media.Models.ListEdgePoliciesContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt; GetEdgePoliciesAsync(class Azure.ResourceManager.Media.Models.ListEdgePoliciesContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetEdgePoliciesAsync(Azure.ResourceManager.Media.Models.ListEdgePoliciesContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEdgePoliciesAsync (content As ListEdgePoliciesContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of EdgePolicies))" />
-      <MemberSignature Language="F#" Value="abstract member GetEdgePoliciesAsync : Azure.ResourceManager.Media.Models.ListEdgePoliciesContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt;&#xA;override this.GetEdgePoliciesAsync : Azure.ResourceManager.Media.Models.ListEdgePoliciesContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt;" Usage="mediaserviceResource.GetEdgePoliciesAsync (content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt; GetEdgePoliciesAsync (Azure.ResourceManager.Media.Models.GetEdgePoliciesContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt; GetEdgePoliciesAsync(class Azure.ResourceManager.Media.Models.GetEdgePoliciesContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetEdgePoliciesAsync(Azure.ResourceManager.Media.Models.GetEdgePoliciesContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEdgePoliciesAsync (content As GetEdgePoliciesContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of EdgePolicies))" />
+      <MemberSignature Language="F#" Value="abstract member GetEdgePoliciesAsync : Azure.ResourceManager.Media.Models.GetEdgePoliciesContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt;&#xA;override this.GetEdgePoliciesAsync : Azure.ResourceManager.Media.Models.GetEdgePoliciesContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt;" Usage="mediaServiceResource.GetEdgePoliciesAsync (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -587,7 +498,7 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.EdgePolicies&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Media.Models.ListEdgePoliciesContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Media.Models.GetEdgePoliciesContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -607,9 +518,9 @@
     <Member MemberName="GetLiveEvent">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt; GetLiveEvent (string liveEventName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.LiveEventResource&gt; GetLiveEvent(string liveEventName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetLiveEvent(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetLiveEvent(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLiveEvent (liveEventName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of LiveEventResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetLiveEvent : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&#xA;override this.GetLiveEvent : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;" Usage="mediaserviceResource.GetLiveEvent (liveEventName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetLiveEvent : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&#xA;override this.GetLiveEvent : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;" Usage="mediaServiceResource.GetLiveEvent (liveEventName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -641,9 +552,9 @@
     <Member MemberName="GetLiveEventAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&gt; GetLiveEventAsync (string liveEventName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.LiveEventResource&gt;&gt; GetLiveEventAsync(string liveEventName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetLiveEventAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetLiveEventAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLiveEventAsync (liveEventName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of LiveEventResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetLiveEventAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&gt;&#xA;override this.GetLiveEventAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&gt;" Usage="mediaserviceResource.GetLiveEventAsync (liveEventName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetLiveEventAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&gt;&#xA;override this.GetLiveEventAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.LiveEventResource&gt;&gt;" Usage="mediaServiceResource.GetLiveEventAsync (liveEventName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -675,9 +586,9 @@
     <Member MemberName="GetLiveEvents">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.LiveEventCollection GetLiveEvents ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.LiveEventCollection GetLiveEvents() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetLiveEvents" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetLiveEvents" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLiveEvents () As LiveEventCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetLiveEvents : unit -&gt; Azure.ResourceManager.Media.LiveEventCollection&#xA;override this.GetLiveEvents : unit -&gt; Azure.ResourceManager.Media.LiveEventCollection" Usage="mediaserviceResource.GetLiveEvents " />
+      <MemberSignature Language="F#" Value="abstract member GetLiveEvents : unit -&gt; Azure.ResourceManager.Media.LiveEventCollection&#xA;override this.GetLiveEvents : unit -&gt; Azure.ResourceManager.Media.LiveEventCollection" Usage="mediaServiceResource.GetLiveEvents " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -688,17 +599,106 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of LiveEventResources in the Mediaservice. </summary>
+        <summary> Gets a collection of LiveEventResources in the MediaService. </summary>
         <returns> An object representing collection of LiveEventResources and their operations over a LiveEventResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaAsset">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt; GetMediaAsset (string assetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaAssetResource&gt; GetMediaAsset(string assetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaAsset(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaAsset (assetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaAssetResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaAsset : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;&#xA;override this.GetMediaAsset : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;" Usage="mediaServiceResource.GetMediaAsset (assetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="assetName"> The Asset name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of an Asset in the Media Services account
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/assets/{assetName}
+            Operation Id: Assets_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="assetName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaAssetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;&gt; GetMediaAssetAsync (string assetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaAssetResource&gt;&gt; GetMediaAssetAsync(string assetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaAssetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaAssetAsync (assetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaAssetResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaAssetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;&gt;&#xA;override this.GetMediaAssetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;&gt;" Usage="mediaServiceResource.GetMediaAssetAsync (assetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaAssetResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="assetName"> The Asset name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of an Asset in the Media Services account
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/assets/{assetName}
+            Operation Id: Assets_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="assetName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaAssets">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.MediaAssetCollection GetMediaAssets ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.MediaAssetCollection GetMediaAssets() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaAssets" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaAssets () As MediaAssetCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaAssets : unit -&gt; Azure.ResourceManager.Media.MediaAssetCollection&#xA;override this.GetMediaAssets : unit -&gt; Azure.ResourceManager.Media.MediaAssetCollection" Usage="mediaServiceResource.GetMediaAssets " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Media.MediaAssetCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of MediaAssetResources in the MediaService. </summary>
+        <returns> An object representing collection of MediaAssetResources and their operations over a MediaAssetResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetMediaPrivateEndpointConnection">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt; GetMediaPrivateEndpointConnection (string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt; GetMediaPrivateEndpointConnection(string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateEndpointConnection(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateEndpointConnection(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateEndpointConnection (name As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaPrivateEndpointConnectionResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&#xA;override this.GetMediaPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;" Usage="mediaserviceResource.GetMediaPrivateEndpointConnection (name, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&#xA;override this.GetMediaPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;" Usage="mediaServiceResource.GetMediaPrivateEndpointConnection (name, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -730,9 +730,9 @@
     <Member MemberName="GetMediaPrivateEndpointConnectionAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt; GetMediaPrivateEndpointConnectionAsync (string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt; GetMediaPrivateEndpointConnectionAsync(string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateEndpointConnectionAsync (name As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaPrivateEndpointConnectionResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt;&#xA;override this.GetMediaPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt;" Usage="mediaserviceResource.GetMediaPrivateEndpointConnectionAsync (name, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt;&#xA;override this.GetMediaPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateEndpointConnectionResource&gt;&gt;" Usage="mediaServiceResource.GetMediaPrivateEndpointConnectionAsync (name, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -764,9 +764,9 @@
     <Member MemberName="GetMediaPrivateEndpointConnections">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection GetMediaPrivateEndpointConnections ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection GetMediaPrivateEndpointConnections() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateEndpointConnections" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateEndpointConnections" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateEndpointConnections () As MediaPrivateEndpointConnectionCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection&#xA;override this.GetMediaPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection" Usage="mediaserviceResource.GetMediaPrivateEndpointConnections " />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection&#xA;override this.GetMediaPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Media.MediaPrivateEndpointConnectionCollection" Usage="mediaServiceResource.GetMediaPrivateEndpointConnections " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -777,7 +777,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of MediaPrivateEndpointConnectionResources in the Mediaservice. </summary>
+        <summary> Gets a collection of MediaPrivateEndpointConnectionResources in the MediaService. </summary>
         <returns> An object representing collection of MediaPrivateEndpointConnectionResources and their operations over a MediaPrivateEndpointConnectionResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -785,9 +785,9 @@
     <Member MemberName="GetMediaPrivateLinkResource">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt; GetMediaPrivateLinkResource (string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaPrivateLinkResource&gt; GetMediaPrivateLinkResource(string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateLinkResource(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateLinkResource(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateLinkResource (name As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaPrivateLinkResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&#xA;override this.GetMediaPrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;" Usage="mediaserviceResource.GetMediaPrivateLinkResource (name, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&#xA;override this.GetMediaPrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;" Usage="mediaServiceResource.GetMediaPrivateLinkResource (name, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -819,9 +819,9 @@
     <Member MemberName="GetMediaPrivateLinkResourceAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt; GetMediaPrivateLinkResourceAsync (string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt; GetMediaPrivateLinkResourceAsync(string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateLinkResourceAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateLinkResourceAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateLinkResourceAsync (name As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaPrivateLinkResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt;&#xA;override this.GetMediaPrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt;" Usage="mediaserviceResource.GetMediaPrivateLinkResourceAsync (name, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt;&#xA;override this.GetMediaPrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaPrivateLinkResource&gt;&gt;" Usage="mediaServiceResource.GetMediaPrivateLinkResourceAsync (name, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -853,9 +853,9 @@
     <Member MemberName="GetMediaPrivateLinkResources">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection GetMediaPrivateLinkResources ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection GetMediaPrivateLinkResources() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetMediaPrivateLinkResources" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaPrivateLinkResources" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaPrivateLinkResources () As MediaPrivateLinkResourceCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResources : unit -&gt; Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection&#xA;override this.GetMediaPrivateLinkResources : unit -&gt; Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection" Usage="mediaserviceResource.GetMediaPrivateLinkResources " />
+      <MemberSignature Language="F#" Value="abstract member GetMediaPrivateLinkResources : unit -&gt; Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection&#xA;override this.GetMediaPrivateLinkResources : unit -&gt; Azure.ResourceManager.Media.MediaPrivateLinkResourceCollection" Usage="mediaServiceResource.GetMediaPrivateLinkResources " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -866,17 +866,106 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of MediaPrivateLinkResources in the Mediaservice. </summary>
+        <summary> Gets a collection of MediaPrivateLinkResources in the MediaService. </summary>
         <returns> An object representing collection of MediaPrivateLinkResources and their operations over a MediaPrivateLinkResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaTransform">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt; GetMediaTransform (string transformName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaTransformResource&gt; GetMediaTransform(string transformName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaTransform(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaTransform (transformName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaTransformResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaTransform : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;&#xA;override this.GetMediaTransform : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;" Usage="mediaServiceResource.GetMediaTransform (transformName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="transformName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="transformName"> The Transform name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a Transform.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/transforms/{transformName}
+            Operation Id: Transforms_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="transformName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="transformName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaTransformAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;&gt; GetMediaTransformAsync (string transformName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaTransformResource&gt;&gt; GetMediaTransformAsync(string transformName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaTransformAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaTransformAsync (transformName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaTransformResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaTransformAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;&gt;&#xA;override this.GetMediaTransformAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;&gt;" Usage="mediaServiceResource.GetMediaTransformAsync (transformName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaTransformResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="transformName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="transformName"> The Transform name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a Transform.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/transforms/{transformName}
+            Operation Id: Transforms_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="transformName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="transformName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMediaTransforms">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.MediaTransformCollection GetMediaTransforms ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.MediaTransformCollection GetMediaTransforms() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetMediaTransforms" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMediaTransforms () As MediaTransformCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetMediaTransforms : unit -&gt; Azure.ResourceManager.Media.MediaTransformCollection&#xA;override this.GetMediaTransforms : unit -&gt; Azure.ResourceManager.Media.MediaTransformCollection" Usage="mediaServiceResource.GetMediaTransforms " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Media.MediaTransformCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of MediaTransformResources in the MediaService. </summary>
+        <returns> An object representing collection of MediaTransformResources and their operations over a MediaTransformResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStreamingEndpoint">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt; GetStreamingEndpoint (string streamingEndpointName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingEndpointResource&gt; GetStreamingEndpoint(string streamingEndpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingEndpoint(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingEndpoint(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingEndpoint (streamingEndpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of StreamingEndpointResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&#xA;override this.GetStreamingEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;" Usage="mediaserviceResource.GetStreamingEndpoint (streamingEndpointName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&#xA;override this.GetStreamingEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;" Usage="mediaServiceResource.GetStreamingEndpoint (streamingEndpointName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -908,9 +997,9 @@
     <Member MemberName="GetStreamingEndpointAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt; GetStreamingEndpointAsync (string streamingEndpointName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt; GetStreamingEndpointAsync(string streamingEndpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingEndpointAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingEndpointAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingEndpointAsync (streamingEndpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of StreamingEndpointResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt;&#xA;override this.GetStreamingEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt;" Usage="mediaserviceResource.GetStreamingEndpointAsync (streamingEndpointName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt;&#xA;override this.GetStreamingEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingEndpointResource&gt;&gt;" Usage="mediaServiceResource.GetStreamingEndpointAsync (streamingEndpointName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -942,9 +1031,9 @@
     <Member MemberName="GetStreamingEndpoints">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.StreamingEndpointCollection GetStreamingEndpoints ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.StreamingEndpointCollection GetStreamingEndpoints() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingEndpoints" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingEndpoints" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingEndpoints () As StreamingEndpointCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpoints : unit -&gt; Azure.ResourceManager.Media.StreamingEndpointCollection&#xA;override this.GetStreamingEndpoints : unit -&gt; Azure.ResourceManager.Media.StreamingEndpointCollection" Usage="mediaserviceResource.GetStreamingEndpoints " />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingEndpoints : unit -&gt; Azure.ResourceManager.Media.StreamingEndpointCollection&#xA;override this.GetStreamingEndpoints : unit -&gt; Azure.ResourceManager.Media.StreamingEndpointCollection" Usage="mediaServiceResource.GetStreamingEndpoints " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -955,7 +1044,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of StreamingEndpointResources in the Mediaservice. </summary>
+        <summary> Gets a collection of StreamingEndpointResources in the MediaService. </summary>
         <returns> An object representing collection of StreamingEndpointResources and their operations over a StreamingEndpointResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -963,9 +1052,9 @@
     <Member MemberName="GetStreamingLocator">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt; GetStreamingLocator (string streamingLocatorName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingLocatorResource&gt; GetStreamingLocator(string streamingLocatorName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingLocator(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingLocator(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingLocator (streamingLocatorName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of StreamingLocatorResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingLocator : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&#xA;override this.GetStreamingLocator : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;" Usage="mediaserviceResource.GetStreamingLocator (streamingLocatorName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingLocator : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&#xA;override this.GetStreamingLocator : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;" Usage="mediaServiceResource.GetStreamingLocator (streamingLocatorName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -997,9 +1086,9 @@
     <Member MemberName="GetStreamingLocatorAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt; GetStreamingLocatorAsync (string streamingLocatorName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt; GetStreamingLocatorAsync(string streamingLocatorName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingLocatorAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingLocatorAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingLocatorAsync (streamingLocatorName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of StreamingLocatorResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingLocatorAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;&#xA;override this.GetStreamingLocatorAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;" Usage="mediaserviceResource.GetStreamingLocatorAsync (streamingLocatorName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingLocatorAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;&#xA;override this.GetStreamingLocatorAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;" Usage="mediaServiceResource.GetStreamingLocatorAsync (streamingLocatorName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1031,9 +1120,9 @@
     <Member MemberName="GetStreamingLocators">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.StreamingLocatorCollection GetStreamingLocators ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.StreamingLocatorCollection GetStreamingLocators() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingLocators" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingLocators" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingLocators () As StreamingLocatorCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingLocators : unit -&gt; Azure.ResourceManager.Media.StreamingLocatorCollection&#xA;override this.GetStreamingLocators : unit -&gt; Azure.ResourceManager.Media.StreamingLocatorCollection" Usage="mediaserviceResource.GetStreamingLocators " />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingLocators : unit -&gt; Azure.ResourceManager.Media.StreamingLocatorCollection&#xA;override this.GetStreamingLocators : unit -&gt; Azure.ResourceManager.Media.StreamingLocatorCollection" Usage="mediaServiceResource.GetStreamingLocators " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1044,7 +1133,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of StreamingLocatorResources in the Mediaservice. </summary>
+        <summary> Gets a collection of StreamingLocatorResources in the MediaService. </summary>
         <returns> An object representing collection of StreamingLocatorResources and their operations over a StreamingLocatorResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1052,9 +1141,9 @@
     <Member MemberName="GetStreamingPolicies">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.StreamingPolicyCollection GetStreamingPolicies ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.StreamingPolicyCollection GetStreamingPolicies() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingPolicies" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingPolicies" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingPolicies () As StreamingPolicyCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicies : unit -&gt; Azure.ResourceManager.Media.StreamingPolicyCollection&#xA;override this.GetStreamingPolicies : unit -&gt; Azure.ResourceManager.Media.StreamingPolicyCollection" Usage="mediaserviceResource.GetStreamingPolicies " />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicies : unit -&gt; Azure.ResourceManager.Media.StreamingPolicyCollection&#xA;override this.GetStreamingPolicies : unit -&gt; Azure.ResourceManager.Media.StreamingPolicyCollection" Usage="mediaServiceResource.GetStreamingPolicies " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1065,7 +1154,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of StreamingPolicyResources in the Mediaservice. </summary>
+        <summary> Gets a collection of StreamingPolicyResources in the MediaService. </summary>
         <returns> An object representing collection of StreamingPolicyResources and their operations over a StreamingPolicyResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1073,9 +1162,9 @@
     <Member MemberName="GetStreamingPolicy">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt; GetStreamingPolicy (string streamingPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingPolicyResource&gt; GetStreamingPolicy(string streamingPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingPolicy(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingPolicy(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingPolicy (streamingPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of StreamingPolicyResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&#xA;override this.GetStreamingPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;" Usage="mediaserviceResource.GetStreamingPolicy (streamingPolicyName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&#xA;override this.GetStreamingPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;" Usage="mediaServiceResource.GetStreamingPolicy (streamingPolicyName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1107,9 +1196,9 @@
     <Member MemberName="GetStreamingPolicyAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt; GetStreamingPolicyAsync (string streamingPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt; GetStreamingPolicyAsync(string streamingPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetStreamingPolicyAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.GetStreamingPolicyAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetStreamingPolicyAsync (streamingPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of StreamingPolicyResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt;&#xA;override this.GetStreamingPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt;" Usage="mediaserviceResource.GetStreamingPolicyAsync (streamingPolicyName, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetStreamingPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt;&#xA;override this.GetStreamingPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingPolicyResource&gt;&gt;" Usage="mediaServiceResource.GetStreamingPolicyAsync (streamingPolicyName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1138,101 +1227,12 @@
           <paramref name="streamingPolicyName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetTransform">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt; GetTransform (string transformName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.TransformResource&gt; GetTransform(string transformName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetTransform(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTransform (transformName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of TransformResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetTransform : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;&#xA;override this.GetTransform : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;" Usage="mediaserviceResource.GetTransform (transformName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="transformName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="transformName"> The Transform name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Transform.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/transforms/{transformName}
-            Operation Id: Transforms_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="transformName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="transformName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetTransformAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;&gt; GetTransformAsync (string transformName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.TransformResource&gt;&gt; GetTransformAsync(string transformName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetTransformAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTransformAsync (transformName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of TransformResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetTransformAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;&gt;&#xA;override this.GetTransformAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;&gt;" Usage="mediaserviceResource.GetTransformAsync (transformName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.TransformResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="transformName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="transformName"> The Transform name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Transform.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/transforms/{transformName}
-            Operation Id: Transforms_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="transformName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="transformName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetTransforms">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Media.TransformCollection GetTransforms ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Media.TransformCollection GetTransforms() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.GetTransforms" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTransforms () As TransformCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetTransforms : unit -&gt; Azure.ResourceManager.Media.TransformCollection&#xA;override this.GetTransforms : unit -&gt; Azure.ResourceManager.Media.TransformCollection" Usage="mediaserviceResource.GetTransforms " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Media.TransformCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of TransformResources in the Mediaservice. </summary>
-        <returns> An object representing collection of TransformResources and their operations over a TransformResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="HasData">
       <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaserviceResource.HasData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.MediaServiceResource.HasData" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasData As Boolean" />
-      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.Media.MediaserviceResource.HasData" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.Media.MediaServiceResource.HasData" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1248,18 +1248,18 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveTag">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt; RemoveTag (string key, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt; RemoveTag(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.RemoveTag(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTag (key As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaserviceResource)" />
-      <MemberSignature Language="F#" Value="abstract member RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&#xA;override this.RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;" Usage="mediaserviceResource.RemoveTag (key, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt; RemoveTag (string key, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt; RemoveTag(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.RemoveTag(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTag (key As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaServiceResource)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&#xA;override this.RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;" Usage="mediaServiceResource.RemoveTag (key, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="System.String" />
@@ -1280,18 +1280,18 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveTagAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; RemoveTagAsync (string key, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; RemoveTagAsync(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTagAsync (key As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaserviceResource))" />
-      <MemberSignature Language="F#" Value="abstract member RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;&#xA;override this.RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;" Usage="mediaserviceResource.RemoveTagAsync (key, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; RemoveTagAsync (string key, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; RemoveTagAsync(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTagAsync (key As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaServiceResource))" />
+      <MemberSignature Language="F#" Value="abstract member RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;&#xA;override this.RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;" Usage="mediaServiceResource.RemoveTagAsync (key, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="System.String" />
@@ -1314,9 +1314,9 @@
     <Member MemberName="ResourceType">
       <MemberSignature Language="C#" Value="public static readonly Azure.Core.ResourceType ResourceType;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Azure.Core.ResourceType ResourceType" />
-      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Media.MediaserviceResource.ResourceType" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Media.MediaServiceResource.ResourceType" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
-      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Media.MediaserviceResource.ResourceType" />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Media.MediaServiceResource.ResourceType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1331,18 +1331,18 @@
       </Docs>
     </Member>
     <Member MemberName="SetTags">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt; SetTags (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt; SetTags(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTags (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaserviceResource)" />
-      <MemberSignature Language="F#" Value="abstract member SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&#xA;override this.SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;" Usage="mediaserviceResource.SetTags (tags, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt; SetTags (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt; SetTags(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTags (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Response(Of MediaServiceResource)" />
+      <MemberSignature Language="F#" Value="abstract member SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&#xA;override this.SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;" Usage="mediaServiceResource.SetTags (tags, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
@@ -1363,18 +1363,18 @@
       </Docs>
     </Member>
     <Member MemberName="SetTagsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; SetTagsAsync (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; SetTagsAsync(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTagsAsync (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaserviceResource))" />
-      <MemberSignature Language="F#" Value="abstract member SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;&#xA;override this.SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;" Usage="mediaserviceResource.SetTagsAsync (tags, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; SetTagsAsync (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; SetTagsAsync(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTagsAsync (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of MediaServiceResource))" />
+      <MemberSignature Language="F#" Value="abstract member SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;&#xA;override this.SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;" Usage="mediaServiceResource.SetTagsAsync (tags, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
@@ -1397,9 +1397,9 @@
     <Member MemberName="SyncStorageKeys">
       <MemberSignature Language="C#" Value="public virtual Azure.Response SyncStorageKeys (Azure.ResourceManager.Media.Models.SyncStorageKeysContent content, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response SyncStorageKeys(class Azure.ResourceManager.Media.Models.SyncStorageKeysContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.SyncStorageKeys(Azure.ResourceManager.Media.Models.SyncStorageKeysContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.SyncStorageKeys(Azure.ResourceManager.Media.Models.SyncStorageKeysContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function SyncStorageKeys (content As SyncStorageKeysContent, Optional cancellationToken As CancellationToken = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member SyncStorageKeys : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.SyncStorageKeys : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; Azure.Response" Usage="mediaserviceResource.SyncStorageKeys (content, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member SyncStorageKeys : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.SyncStorageKeys : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; Azure.Response" Usage="mediaServiceResource.SyncStorageKeys (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1429,9 +1429,9 @@
     <Member MemberName="SyncStorageKeysAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; SyncStorageKeysAsync (Azure.ResourceManager.Media.Models.SyncStorageKeysContent content, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; SyncStorageKeysAsync(class Azure.ResourceManager.Media.Models.SyncStorageKeysContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.SyncStorageKeysAsync(Azure.ResourceManager.Media.Models.SyncStorageKeysContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.SyncStorageKeysAsync(Azure.ResourceManager.Media.Models.SyncStorageKeysContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function SyncStorageKeysAsync (content As SyncStorageKeysContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member SyncStorageKeysAsync : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.SyncStorageKeysAsync : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="mediaserviceResource.SyncStorageKeysAsync (content, cancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member SyncStorageKeysAsync : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.SyncStorageKeysAsync : Azure.ResourceManager.Media.Models.SyncStorageKeysContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="mediaServiceResource.SyncStorageKeysAsync (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
@@ -1459,22 +1459,22 @@
       </Docs>
     </Member>
     <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt; Update (Azure.WaitUntil waitUntil, Azure.ResourceManager.Media.Models.MediaservicePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt; Update(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Media.Models.MediaservicePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.Update(Azure.WaitUntil,Azure.ResourceManager.Media.Models.MediaservicePatch,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (waitUntil As WaitUntil, patch As MediaservicePatch, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of MediaserviceResource)" />
-      <MemberSignature Language="F#" Value="abstract member Update : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaservicePatch * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&#xA;override this.Update : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaservicePatch * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;" Usage="mediaserviceResource.Update (waitUntil, patch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt; Update (Azure.WaitUntil waitUntil, Azure.ResourceManager.Media.Models.MediaServicePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt; Update(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Media.Models.MediaServicePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.Update(Azure.WaitUntil,Azure.ResourceManager.Media.Models.MediaServicePatch,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (waitUntil As WaitUntil, patch As MediaServicePatch, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of MediaServiceResource)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaServicePatch * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&#xA;override this.Update : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaServicePatch * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;" Usage="mediaServiceResource.Update (waitUntil, patch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;</ReturnType>
+        <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="patch" Type="Azure.ResourceManager.Media.Models.MediaservicePatch" />
+        <Parameter Name="patch" Type="Azure.ResourceManager.Media.Models.MediaServicePatch" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -1494,22 +1494,22 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; UpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Media.Models.MediaservicePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Media.MediaserviceResource&gt;&gt; UpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Media.Models.MediaservicePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaserviceResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Media.Models.MediaservicePatch,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (waitUntil As WaitUntil, patch As MediaservicePatch, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of MediaserviceResource))" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaservicePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaservicePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;" Usage="mediaserviceResource.UpdateAsync (waitUntil, patch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; UpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Media.Models.MediaServicePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Media.MediaServiceResource&gt;&gt; UpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Media.Models.MediaServicePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.MediaServiceResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Media.Models.MediaServicePatch,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (waitUntil As WaitUntil, patch As MediaServicePatch, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of MediaServiceResource))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaServicePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Media.Models.MediaServicePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;" Usage="mediaServiceResource.UpdateAsync (waitUntil, patch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaserviceResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.MediaServiceResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="patch" Type="Azure.ResourceManager.Media.Models.MediaservicePatch" />
+        <Parameter Name="patch" Type="Azure.ResourceManager.Media.Models.MediaServicePatch" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

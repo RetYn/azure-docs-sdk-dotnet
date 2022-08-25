@@ -254,11 +254,11 @@
       </Docs>
     </Member>
     <Member MemberName="VmssVmList">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.VmssVmInfo&gt; VmssVmList { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.VmssVmInfo&gt; VmssVmList { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.GuestConfiguration.Models.VmssVmInfo&gt; VmssVmList" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationAssignmentProperties.VmssVmList" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VmssVmList As IList(Of VmssVmInfo)" />
-      <MemberSignature Language="F#" Value="member this.VmssVmList : System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.VmssVmInfo&gt;" Usage="Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationAssignmentProperties.VmssVmList" />
+      <MemberSignature Language="VB.NET" Value="Public Property VmssVmList As IList(Of VmssVmInfo)" />
+      <MemberSignature Language="F#" Value="member this.VmssVmList : System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.VmssVmInfo&gt; with get, set" Usage="Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationAssignmentProperties.VmssVmList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>

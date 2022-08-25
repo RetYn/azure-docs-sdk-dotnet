@@ -275,27 +275,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDatabaseAccountGremlinDatabaseThroughputSetting">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource GetDatabaseAccountGremlinDatabaseThroughputSetting ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource GetDatabaseAccountGremlinDatabaseThroughputSetting() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.GremlinDatabaseResource.GetDatabaseAccountGremlinDatabaseThroughputSetting" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDatabaseAccountGremlinDatabaseThroughputSetting () As DatabaseAccountGremlinDatabaseThroughputSettingResource" />
-      <MemberSignature Language="F#" Value="abstract member GetDatabaseAccountGremlinDatabaseThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource&#xA;override this.GetDatabaseAccountGremlinDatabaseThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource" Usage="gremlinDatabaseResource.GetDatabaseAccountGremlinDatabaseThroughputSetting " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets an object representing a DatabaseAccountGremlinDatabaseThroughputSettingResource along with the instance operations that can be performed on it in the GremlinDatabase. </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseThroughputSettingResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetGremlinDatabaseThroughputSetting">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.CosmosDB.GremlinDatabaseThroughputSettingResource GetGremlinDatabaseThroughputSetting ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.CosmosDB.GremlinDatabaseThroughputSettingResource GetGremlinDatabaseThroughputSetting() cil managed" />
@@ -588,9 +567,9 @@
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.GremlinDatabaseResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -623,9 +602,9 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.GremlinDatabaseResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">

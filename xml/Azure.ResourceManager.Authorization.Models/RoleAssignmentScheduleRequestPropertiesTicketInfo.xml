@@ -1,0 +1,77 @@
+<Type Name="RoleAssignmentScheduleRequestPropertiesTicketInfo" FullName="Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo">
+  <TypeSignature Language="C#" Value="public class RoleAssignmentScheduleRequestPropertiesTicketInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoleAssignmentScheduleRequestPropertiesTicketInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoleAssignmentScheduleRequestPropertiesTicketInfo" />
+  <TypeSignature Language="F#" Value="type RoleAssignmentScheduleRequestPropertiesTicketInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Ticket Info of the role assignment. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RoleAssignmentScheduleRequestPropertiesTicketInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of RoleAssignmentScheduleRequestPropertiesTicketInfo. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TicketNumber">
+      <MemberSignature Language="C#" Value="public string TicketNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TicketNumber" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo.TicketNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property TicketNumber As String" />
+      <MemberSignature Language="F#" Value="member this.TicketNumber : string with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo.TicketNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Ticket number for the role assignment. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TicketSystem">
+      <MemberSignature Language="C#" Value="public string TicketSystem { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TicketSystem" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo.TicketSystem" />
+      <MemberSignature Language="VB.NET" Value="Public Property TicketSystem As String" />
+      <MemberSignature Language="F#" Value="member this.TicketSystem : string with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleRequestPropertiesTicketInfo.TicketSystem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Ticket system name for the role assignment. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

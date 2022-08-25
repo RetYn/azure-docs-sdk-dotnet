@@ -1,15 +1,15 @@
 <Type Name="FaceDetectorPreset" FullName="Azure.ResourceManager.Media.Models.FaceDetectorPreset">
-  <TypeSignature Language="C#" Value="public class FaceDetectorPreset : Azure.ResourceManager.Media.Models.Preset" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FaceDetectorPreset extends Azure.ResourceManager.Media.Models.Preset" />
+  <TypeSignature Language="C#" Value="public class FaceDetectorPreset : Azure.ResourceManager.Media.Models.MediaPreset" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FaceDetectorPreset extends Azure.ResourceManager.Media.Models.MediaPreset" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Media.Models.FaceDetectorPreset" />
-  <TypeSignature Language="VB.NET" Value="Public Class FaceDetectorPreset&#xA;Inherits Preset" />
-  <TypeSignature Language="F#" Value="type FaceDetectorPreset = class&#xA;    inherit Preset" />
+  <TypeSignature Language="VB.NET" Value="Public Class FaceDetectorPreset&#xA;Inherits MediaPreset" />
+  <TypeSignature Language="F#" Value="type FaceDetectorPreset = class&#xA;    inherit MediaPreset" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.Media.Models.Preset</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Media.Models.MediaPreset</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -34,18 +34,18 @@
       </Docs>
     </Member>
     <Member MemberName="BlurType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.BlurType? BlurType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.BlurType&gt; BlurType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Media.Models.FaceDetectorBlurType? BlurType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Media.Models.FaceDetectorBlurType&gt; BlurType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Media.Models.FaceDetectorPreset.BlurType" />
-      <MemberSignature Language="VB.NET" Value="Public Property BlurType As Nullable(Of BlurType)" />
-      <MemberSignature Language="F#" Value="member this.BlurType : Nullable&lt;Azure.ResourceManager.Media.Models.BlurType&gt; with get, set" Usage="Azure.ResourceManager.Media.Models.FaceDetectorPreset.BlurType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlurType As Nullable(Of FaceDetectorBlurType)" />
+      <MemberSignature Language="F#" Value="member this.BlurType : Nullable&lt;Azure.ResourceManager.Media.Models.FaceDetectorBlurType&gt; with get, set" Usage="Azure.ResourceManager.Media.Models.FaceDetectorPreset.BlurType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.BlurType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Media.Models.FaceDetectorBlurType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Blur type. </summary>

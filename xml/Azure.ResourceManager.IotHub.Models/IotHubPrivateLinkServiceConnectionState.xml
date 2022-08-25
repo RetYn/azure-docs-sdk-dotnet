@@ -18,18 +18,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public IotHubPrivateLinkServiceConnectionState (Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus status, string description);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus status, string description) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState.#ctor(Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (status As PrivateLinkServiceConnectionStatus, description As String)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState : Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus * string -&gt; Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState" Usage="new Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState (status, description)" />
+      <MemberSignature Language="C#" Value="public IotHubPrivateLinkServiceConnectionState (Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus status, string description);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus status, string description) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState.#ctor(Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (status As IotHubPrivateLinkServiceConnectionStatus, description As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState : Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus * string -&gt; Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState" Usage="new Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState (status, description)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotHub</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="status" Type="Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus" />
+        <Parameter Name="status" Type="Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus" />
         <Parameter Name="description" Type="System.String" />
       </Parameters>
       <Docs>
@@ -82,18 +82,18 @@
       </Docs>
     </Member>
     <Member MemberName="Status">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus Status { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus Status" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus Status" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState.Status" />
-      <MemberSignature Language="VB.NET" Value="Public Property Status As PrivateLinkServiceConnectionStatus" />
-      <MemberSignature Language="F#" Value="member this.Status : Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus with get, set" Usage="Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As IotHubPrivateLinkServiceConnectionStatus" />
+      <MemberSignature Language="F#" Value="member this.Status : Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus with get, set" Usage="Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionState.Status" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotHub</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.IotHub.Models.PrivateLinkServiceConnectionStatus</ReturnType>
+        <ReturnType>Azure.ResourceManager.IotHub.Models.IotHubPrivateLinkServiceConnectionStatus</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The status of a private endpoint connection. </summary>

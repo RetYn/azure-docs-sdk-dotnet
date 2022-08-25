@@ -141,7 +141,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The extension can contain either protectedSettings or protectedSettingsFromKeyVault or no protected settings at all..
+            The extension can contain either protectedSettings or protectedSettingsFromKeyVault or no protected settings at all.
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>
@@ -229,7 +229,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Json formatted public settings for the extension..
+            Json formatted public settings for the extension.
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>

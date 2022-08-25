@@ -275,27 +275,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDatabaseAccountMongodbDatabaseThroughputSetting">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource GetDatabaseAccountMongodbDatabaseThroughputSetting ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource GetDatabaseAccountMongodbDatabaseThroughputSetting() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource.GetDatabaseAccountMongodbDatabaseThroughputSetting" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDatabaseAccountMongodbDatabaseThroughputSetting () As DatabaseAccountMongodbDatabaseThroughputSettingResource" />
-      <MemberSignature Language="F#" Value="abstract member GetDatabaseAccountMongodbDatabaseThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource&#xA;override this.GetDatabaseAccountMongodbDatabaseThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource" Usage="mongoDBDatabaseResource.GetDatabaseAccountMongodbDatabaseThroughputSetting " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets an object representing a DatabaseAccountMongodbDatabaseThroughputSettingResource along with the instance operations that can be performed on it in the MongoDBDatabase. </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDB.DatabaseAccountMongodbDatabaseThroughputSettingResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetMongoDBCollection">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.CosmosDB.MongoDBCollectionResource&gt; GetMongoDBCollection (string collectionName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.CosmosDB.MongoDBCollectionResource&gt; GetMongoDBCollection(string collectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -588,9 +567,9 @@
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -623,9 +602,9 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">

@@ -335,19 +335,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetIscsiTarget">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt; GetIscsiTarget (string iscsiTargetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.StoragePool.IscsiTargetResource&gt; GetIscsiTarget(string iscsiTargetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetIscsiTarget(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIscsiTarget (iscsiTargetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IscsiTargetResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetIscsiTarget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&#xA;override this.GetIscsiTarget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;" Usage="diskPoolResource.GetIscsiTarget (iscsiTargetName, cancellationToken)" />
+    <Member MemberName="GetDiskPoolIscsiTarget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt; GetDiskPoolIscsiTarget (string iscsiTargetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt; GetDiskPoolIscsiTarget(string iscsiTargetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetDiskPoolIscsiTarget(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiskPoolIscsiTarget (iscsiTargetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DiskPoolIscsiTargetResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetDiskPoolIscsiTarget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&#xA;override this.GetDiskPoolIscsiTarget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;" Usage="diskPoolResource.GetDiskPoolIscsiTarget (iscsiTargetName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="iscsiTargetName" Type="System.String" />
@@ -369,19 +369,19 @@
           <paramref name="iscsiTargetName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetIscsiTargetAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&gt; GetIscsiTargetAsync (string iscsiTargetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&gt; GetIscsiTargetAsync(string iscsiTargetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetIscsiTargetAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIscsiTargetAsync (iscsiTargetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IscsiTargetResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetIscsiTargetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&gt;&#xA;override this.GetIscsiTargetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&gt;" Usage="diskPoolResource.GetIscsiTargetAsync (iscsiTargetName, cancellationToken)" />
+    <Member MemberName="GetDiskPoolIscsiTargetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt; GetDiskPoolIscsiTargetAsync (string iscsiTargetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt; GetDiskPoolIscsiTargetAsync(string iscsiTargetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetDiskPoolIscsiTargetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiskPoolIscsiTargetAsync (iscsiTargetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DiskPoolIscsiTargetResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetDiskPoolIscsiTargetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt;&#xA;override this.GetDiskPoolIscsiTargetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt;" Usage="diskPoolResource.GetDiskPoolIscsiTargetAsync (iscsiTargetName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.IscsiTargetResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="iscsiTargetName" Type="System.String" />
@@ -403,40 +403,40 @@
           <paramref name="iscsiTargetName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetIscsiTargets">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.StoragePool.IscsiTargetCollection GetIscsiTargets ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.StoragePool.IscsiTargetCollection GetIscsiTargets() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetIscsiTargets" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIscsiTargets () As IscsiTargetCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetIscsiTargets : unit -&gt; Azure.ResourceManager.StoragePool.IscsiTargetCollection&#xA;override this.GetIscsiTargets : unit -&gt; Azure.ResourceManager.StoragePool.IscsiTargetCollection" Usage="diskPoolResource.GetIscsiTargets " />
+    <Member MemberName="GetDiskPoolIscsiTargets">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection GetDiskPoolIscsiTargets ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection GetDiskPoolIscsiTargets() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetDiskPoolIscsiTargets" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiskPoolIscsiTargets () As DiskPoolIscsiTargetCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetDiskPoolIscsiTargets : unit -&gt; Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection&#xA;override this.GetDiskPoolIscsiTargets : unit -&gt; Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection" Usage="diskPoolResource.GetDiskPoolIscsiTargets " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.StoragePool.IscsiTargetCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of IscsiTargetResources in the DiskPool. </summary>
-        <returns> An object representing collection of IscsiTargetResources and their operations over a IscsiTargetResource. </returns>
+        <summary> Gets a collection of DiskPoolIscsiTargetResources in the DiskPool. </summary>
+        <returns> An object representing collection of DiskPoolIscsiTargetResources and their operations over a DiskPoolIscsiTargetResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetOutboundNetworkDependenciesEndpoints">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpoints (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpoints(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt; GetOutboundNetworkDependenciesEndpoints (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt; GetOutboundNetworkDependenciesEndpoints(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetOutboundNetworkDependenciesEndpoints(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpoints (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of OutboundEnvironmentEndpoint)" />
-      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;" Usage="diskPoolResource.GetOutboundNetworkDependenciesEndpoints cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpoints (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of StoragePoolOutboundEnvironment)" />
+      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;" Usage="diskPoolResource.GetOutboundNetworkDependenciesEndpoints cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -448,23 +448,23 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints
             Operation Id: DiskPools_ListOutboundNetworkDependenciesEndpoints
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetOutboundNetworkDependenciesEndpointsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpointsAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpointsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt; GetOutboundNetworkDependenciesEndpointsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt; GetOutboundNetworkDependenciesEndpointsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.StoragePool.DiskPoolResource.GetOutboundNetworkDependenciesEndpointsAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpointsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of OutboundEnvironmentEndpoint)" />
-      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;" Usage="diskPoolResource.GetOutboundNetworkDependenciesEndpointsAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpointsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of StoragePoolOutboundEnvironment)" />
+      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;" Usage="diskPoolResource.GetOutboundNetworkDependenciesEndpointsAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -476,7 +476,7 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints
             Operation Id: DiskPools_ListOutboundNetworkDependenciesEndpoints
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.OutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

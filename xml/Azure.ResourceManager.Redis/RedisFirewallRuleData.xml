@@ -18,19 +18,19 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public RedisFirewallRuleData (string startIP, string endIP);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string startIP, string endIP) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisFirewallRuleData.#ctor(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (startIP As String, endIP As String)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Redis.RedisFirewallRuleData : string * string -&gt; Azure.ResourceManager.Redis.RedisFirewallRuleData" Usage="new Azure.ResourceManager.Redis.RedisFirewallRuleData (startIP, endIP)" />
+      <MemberSignature Language="C#" Value="public RedisFirewallRuleData (System.Net.IPAddress startIP, System.Net.IPAddress endIP);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Net.IPAddress startIP, class System.Net.IPAddress endIP) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Redis.RedisFirewallRuleData.#ctor(System.Net.IPAddress,System.Net.IPAddress)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startIP As IPAddress, endIP As IPAddress)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Redis.RedisFirewallRuleData : System.Net.IPAddress * System.Net.IPAddress -&gt; Azure.ResourceManager.Redis.RedisFirewallRuleData" Usage="new Azure.ResourceManager.Redis.RedisFirewallRuleData (startIP, endIP)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="startIP" Type="System.String" />
-        <Parameter Name="endIP" Type="System.String" />
+        <Parameter Name="startIP" Type="System.Net.IPAddress" />
+        <Parameter Name="endIP" Type="System.Net.IPAddress" />
       </Parameters>
       <Docs>
         <param name="startIP"> lowest IP address included in the range. </param>
@@ -42,18 +42,18 @@
       </Docs>
     </Member>
     <Member MemberName="EndIP">
-      <MemberSignature Language="C#" Value="public string EndIP { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string EndIP" />
+      <MemberSignature Language="C#" Value="public System.Net.IPAddress EndIP { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IPAddress EndIP" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Redis.RedisFirewallRuleData.EndIP" />
-      <MemberSignature Language="VB.NET" Value="Public Property EndIP As String" />
-      <MemberSignature Language="F#" Value="member this.EndIP : string with get, set" Usage="Azure.ResourceManager.Redis.RedisFirewallRuleData.EndIP" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndIP As IPAddress" />
+      <MemberSignature Language="F#" Value="member this.EndIP : System.Net.IPAddress with get, set" Usage="Azure.ResourceManager.Redis.RedisFirewallRuleData.EndIP" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Net.IPAddress</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> highest IP address included in the range. </summary>
@@ -62,18 +62,18 @@
       </Docs>
     </Member>
     <Member MemberName="StartIP">
-      <MemberSignature Language="C#" Value="public string StartIP { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string StartIP" />
+      <MemberSignature Language="C#" Value="public System.Net.IPAddress StartIP { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IPAddress StartIP" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Redis.RedisFirewallRuleData.StartIP" />
-      <MemberSignature Language="VB.NET" Value="Public Property StartIP As String" />
-      <MemberSignature Language="F#" Value="member this.StartIP : string with get, set" Usage="Azure.ResourceManager.Redis.RedisFirewallRuleData.StartIP" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartIP As IPAddress" />
+      <MemberSignature Language="F#" Value="member this.StartIP : System.Net.IPAddress with get, set" Usage="Azure.ResourceManager.Redis.RedisFirewallRuleData.StartIP" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Net.IPAddress</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> lowest IP address included in the range. </summary>

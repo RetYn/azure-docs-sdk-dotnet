@@ -1,8 +1,8 @@
 <Type Name="ScriptExecutionParameter" FullName="Azure.ResourceManager.Avs.Models.ScriptExecutionParameter">
-  <TypeSignature Language="C#" Value="public class ScriptExecutionParameter" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScriptExecutionParameter extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class ScriptExecutionParameter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ScriptExecutionParameter extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.Models.ScriptExecutionParameter" />
-  <TypeSignature Language="VB.NET" Value="Public Class ScriptExecutionParameter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ScriptExecutionParameter" />
   <TypeSignature Language="F#" Value="type ScriptExecutionParameter = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
@@ -22,10 +22,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ScriptExecutionParameter (string name);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="C#" Value="protected ScriptExecutionParameter (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.ScriptExecutionParameter.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (name As String)" />
       <MemberSignature Language="F#" Value="new Azure.ResourceManager.Avs.Models.ScriptExecutionParameter : string -&gt; Azure.ResourceManager.Avs.Models.ScriptExecutionParameter" Usage="new Azure.ResourceManager.Avs.Models.ScriptExecutionParameter name" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>

@@ -1,8 +1,8 @@
 <Type Name="AddonProperties" FullName="Azure.ResourceManager.Avs.Models.AddonProperties">
-  <TypeSignature Language="C#" Value="public class AddonProperties" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddonProperties extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class AddonProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AddonProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.Models.AddonProperties" />
-  <TypeSignature Language="VB.NET" Value="Public Class AddonProperties" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AddonProperties" />
   <TypeSignature Language="F#" Value="type AddonProperties = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
@@ -22,10 +22,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AddonProperties ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="C#" Value="protected AddonProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AddonProperties.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>

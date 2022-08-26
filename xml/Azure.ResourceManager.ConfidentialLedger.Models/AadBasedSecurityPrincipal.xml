@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="PrincipalId">
-      <MemberSignature Language="C#" Value="public string PrincipalId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PrincipalId" />
+      <MemberSignature Language="C#" Value="public Guid? PrincipalId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PrincipalId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConfidentialLedger.Models.AadBasedSecurityPrincipal.PrincipalId" />
-      <MemberSignature Language="VB.NET" Value="Public Property PrincipalId As String" />
-      <MemberSignature Language="F#" Value="member this.PrincipalId : string with get, set" Usage="Azure.ResourceManager.ConfidentialLedger.Models.AadBasedSecurityPrincipal.PrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrincipalId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.PrincipalId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.ConfidentialLedger.Models.AadBasedSecurityPrincipal.PrincipalId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> UUID/GUID based Principal Id of the Security Principal. </summary>

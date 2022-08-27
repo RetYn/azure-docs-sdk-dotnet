@@ -1,0 +1,85 @@
+<Type Name="UploadLogsStatus" FullName="Azure.Monitor.Ingestion.UploadLogsStatus">
+  <TypeSignature Language="C#" Value="public enum UploadLogsStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UploadLogsStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Monitor.Ingestion.UploadLogsStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UploadLogsStatus" />
+  <TypeSignature Language="F#" Value="type UploadLogsStatus = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Monitor.Ingestion</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            test
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FAILURE">
+      <MemberSignature Language="C#" Value="FAILURE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Monitor.Ingestion.UploadLogsStatus FAILURE = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Monitor.Ingestion.UploadLogsStatus.FAILURE" />
+      <MemberSignature Language="VB.NET" Value="FAILURE" />
+      <MemberSignature Language="F#" Value="FAILURE = 2" Usage="Azure.Monitor.Ingestion.UploadLogsStatus.FAILURE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Ingestion</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Monitor.Ingestion.UploadLogsStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            test
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PARTIALFAILURE">
+      <MemberSignature Language="C#" Value="PARTIALFAILURE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Monitor.Ingestion.UploadLogsStatus PARTIALFAILURE = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Monitor.Ingestion.UploadLogsStatus.PARTIALFAILURE" />
+      <MemberSignature Language="VB.NET" Value="PARTIALFAILURE" />
+      <MemberSignature Language="F#" Value="PARTIALFAILURE = 1" Usage="Azure.Monitor.Ingestion.UploadLogsStatus.PARTIALFAILURE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Ingestion</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Monitor.Ingestion.UploadLogsStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            test
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SUCCESS">
+      <MemberSignature Language="C#" Value="SUCCESS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Monitor.Ingestion.UploadLogsStatus SUCCESS = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Monitor.Ingestion.UploadLogsStatus.SUCCESS" />
+      <MemberSignature Language="VB.NET" Value="SUCCESS" />
+      <MemberSignature Language="F#" Value="SUCCESS = 0" Usage="Azure.Monitor.Ingestion.UploadLogsStatus.SUCCESS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Ingestion</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Monitor.Ingestion.UploadLogsStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            test
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

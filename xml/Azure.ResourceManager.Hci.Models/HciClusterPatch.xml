@@ -94,18 +94,18 @@
       </Docs>
     </Member>
     <Member MemberName="DesiredProperties">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Hci.Models.ClusterDesiredProperties DesiredProperties { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Hci.Models.ClusterDesiredProperties DesiredProperties" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties DesiredProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties DesiredProperties" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Hci.Models.HciClusterPatch.DesiredProperties" />
-      <MemberSignature Language="VB.NET" Value="Public Property DesiredProperties As ClusterDesiredProperties" />
-      <MemberSignature Language="F#" Value="member this.DesiredProperties : Azure.ResourceManager.Hci.Models.ClusterDesiredProperties with get, set" Usage="Azure.ResourceManager.Hci.Models.HciClusterPatch.DesiredProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property DesiredProperties As HciClusterDesiredProperties" />
+      <MemberSignature Language="F#" Value="member this.DesiredProperties : Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties with get, set" Usage="Azure.ResourceManager.Hci.Models.HciClusterPatch.DesiredProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Hci.Models.ClusterDesiredProperties</ReturnType>
+        <ReturnType>Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Desired properties of the cluster. </summary>

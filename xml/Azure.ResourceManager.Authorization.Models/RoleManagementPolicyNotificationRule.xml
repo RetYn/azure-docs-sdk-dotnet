@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="NotificationLevel">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.NotificationLevel? NotificationLevel { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.NotificationLevel&gt; NotificationLevel" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationLevel? NotificationLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationLevel&gt; NotificationLevel" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.NotificationLevel" />
-      <MemberSignature Language="VB.NET" Value="Public Property NotificationLevel As Nullable(Of NotificationLevel)" />
-      <MemberSignature Language="F#" Value="member this.NotificationLevel : Nullable&lt;Azure.ResourceManager.Authorization.Models.NotificationLevel&gt; with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.NotificationLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotificationLevel As Nullable(Of RoleManagementPolicyNotificationLevel)" />
+      <MemberSignature Language="F#" Value="member this.NotificationLevel : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationLevel&gt; with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.NotificationLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.NotificationLevel&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationLevel&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The notification level. </summary>
@@ -114,18 +114,18 @@
       </Docs>
     </Member>
     <Member MemberName="RecipientType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RecipientType? RecipientType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RecipientType&gt; RecipientType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Authorization.Models.RoleManagementPolicyRecipientType? RecipientType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Authorization.Models.RoleManagementPolicyRecipientType&gt; RecipientType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.RecipientType" />
-      <MemberSignature Language="VB.NET" Value="Public Property RecipientType As Nullable(Of RecipientType)" />
-      <MemberSignature Language="F#" Value="member this.RecipientType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RecipientType&gt; with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.RecipientType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecipientType As Nullable(Of RoleManagementPolicyRecipientType)" />
+      <MemberSignature Language="F#" Value="member this.RecipientType : Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPolicyRecipientType&gt; with get, set" Usage="Azure.ResourceManager.Authorization.Models.RoleManagementPolicyNotificationRule.RecipientType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RecipientType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPolicyRecipientType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The recipient type. </summary>

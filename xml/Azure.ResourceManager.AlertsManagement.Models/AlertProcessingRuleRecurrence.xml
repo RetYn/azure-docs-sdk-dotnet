@@ -1,8 +1,8 @@
 <Type Name="AlertProcessingRuleRecurrence" FullName="Azure.ResourceManager.AlertsManagement.Models.AlertProcessingRuleRecurrence">
-  <TypeSignature Language="C#" Value="public class AlertProcessingRuleRecurrence" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlertProcessingRuleRecurrence extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class AlertProcessingRuleRecurrence" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AlertProcessingRuleRecurrence extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AlertsManagement.Models.AlertProcessingRuleRecurrence" />
-  <TypeSignature Language="VB.NET" Value="Public Class AlertProcessingRuleRecurrence" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AlertProcessingRuleRecurrence" />
   <TypeSignature Language="F#" Value="type AlertProcessingRuleRecurrence = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
@@ -22,10 +22,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AlertProcessingRuleRecurrence ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="C#" Value="protected AlertProcessingRuleRecurrence ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AlertsManagement.Models.AlertProcessingRuleRecurrence.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>

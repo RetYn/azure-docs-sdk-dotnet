@@ -58,18 +58,18 @@
       </Docs>
     </Member>
     <Member MemberName="Operations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperation&gt; Operations { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Authorization.Models.ProviderOperation&gt; Operations" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperationInfo&gt; Operations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Authorization.Models.ProviderOperationInfo&gt; Operations" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.Models.ProviderOperationsResourceType.Operations" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Operations As IReadOnlyList(Of ProviderOperation)" />
-      <MemberSignature Language="F#" Value="member this.Operations : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperation&gt;" Usage="Azure.ResourceManager.Authorization.Models.ProviderOperationsResourceType.Operations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Operations As IReadOnlyList(Of ProviderOperationInfo)" />
+      <MemberSignature Language="F#" Value="member this.Operations : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperationInfo&gt;" Usage="Azure.ResourceManager.Authorization.Models.ProviderOperationsResourceType.Operations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperation&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Authorization.Models.ProviderOperationInfo&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource type operations. </summary>

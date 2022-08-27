@@ -1,0 +1,337 @@
+<Type Name="NetAppVolumeExportPolicyRule" FullName="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule">
+  <TypeSignature Language="C#" Value="public class NetAppVolumeExportPolicyRule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetAppVolumeExportPolicyRule extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetAppVolumeExportPolicyRule" />
+  <TypeSignature Language="F#" Value="type NetAppVolumeExportPolicyRule = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Volume Export Policy Rule. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NetAppVolumeExportPolicyRule ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of NetAppVolumeExportPolicyRule. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowedClients">
+      <MemberSignature Language="C#" Value="public string AllowedClients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllowedClients" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.AllowedClients" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowedClients As String" />
+      <MemberSignature Language="F#" Value="member this.AllowedClients : string with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.AllowedClients" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Client ingress specification as comma separated string with IPv4 CIDRs, IPv4 host addresses and host names. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChownMode">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppChownMode? ChownMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.NetAppChownMode&gt; ChownMode" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.ChownMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChownMode As Nullable(Of NetAppChownMode)" />
+      <MemberSignature Language="F#" Value="member this.ChownMode : Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppChownMode&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.ChownMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.NetAppChownMode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> This parameter specifies who is authorized to change the ownership of a file. restricted - Only root user can change the ownership of the file. unrestricted - Non-root users can change ownership of files that they own. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cifs">
+      <MemberSignature Language="C#" Value="public bool? Cifs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Cifs" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Cifs" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cifs As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Cifs : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Cifs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Allows CIFS protocol. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasRootAccess">
+      <MemberSignature Language="C#" Value="public bool? HasRootAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; HasRootAccess" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.HasRootAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasRootAccess As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.HasRootAccess : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.HasRootAccess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Has root access to volume. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5IReadOnly">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5IReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5IReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5IReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5IReadOnly As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5IReadOnly : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5IReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5i Read only access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5IReadWrite">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5IReadWrite { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5IReadWrite" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5IReadWrite" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5IReadWrite As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5IReadWrite : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5IReadWrite" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5i Read and write access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5PReadOnly">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5PReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5PReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5PReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5PReadOnly As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5PReadOnly : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5PReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5p Read only access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5PReadWrite">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5PReadWrite { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5PReadWrite" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5PReadWrite" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5PReadWrite As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5PReadWrite : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5PReadWrite" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5p Read and write access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5ReadOnly">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5ReadOnly As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5ReadOnly : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5ReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5 Read only access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kerberos5ReadWrite">
+      <MemberSignature Language="C#" Value="public bool? Kerberos5ReadWrite { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Kerberos5ReadWrite" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5ReadWrite" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kerberos5ReadWrite As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Kerberos5ReadWrite : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Kerberos5ReadWrite" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kerberos5 Read and write access. To be use with swagger version 2020-05-01 or later. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nfsv3">
+      <MemberSignature Language="C#" Value="public bool? Nfsv3 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Nfsv3" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Nfsv3" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nfsv3 As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Nfsv3 : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Nfsv3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Allows NFSv3 protocol. Enable only for NFSv3 type volumes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nfsv41">
+      <MemberSignature Language="C#" Value="public bool? Nfsv41 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Nfsv41" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Nfsv41" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nfsv41 As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Nfsv41 : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.Nfsv41" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Allows NFSv4.1 protocol. Enable only for NFSv4.1 type volumes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleIndex">
+      <MemberSignature Language="C#" Value="public int? RuleIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; RuleIndex" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.RuleIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property RuleIndex As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.RuleIndex : Nullable&lt;int&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.RuleIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Order index. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnixReadOnly">
+      <MemberSignature Language="C#" Value="public bool? UnixReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; UnixReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.UnixReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnixReadOnly As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.UnixReadOnly : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.UnixReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Read only access. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnixReadWrite">
+      <MemberSignature Language="C#" Value="public bool? UnixReadWrite { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; UnixReadWrite" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.UnixReadWrite" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnixReadWrite As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.UnixReadWrite : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.Models.NetAppVolumeExportPolicyRule.UnixReadWrite" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Read and write access. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

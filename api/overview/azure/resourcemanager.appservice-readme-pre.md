@@ -6,7 +6,8 @@ ms.author: pallavit
 ms.date: 08/29/2022
 ms.topic: reference
 ms.devlang: dotnet
-ms.service: websites
+ms.service: app-service
+ms.subservice: web-apps
 ---
 # Azure AppService Management client library for .NET - version 1.0.0-beta.4 
 

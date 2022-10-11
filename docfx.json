@@ -209,6 +209,9 @@
       }
     },
     "fileMetadata": {
+      "ms.subservice": {
+        "api/Microsoft.ApplicationInsights*.yml": "application-insights"
+      },
       "ms.service": {
         "api/Azure.Communication.CallingServer*.yml": "azure-communication-services",
         "api/Azure.Communication.Email*.yml": "azure-communication-services",
@@ -237,7 +240,7 @@
         "api/global*.yml": "multiple",
         "api/KeyVault.TestFramework*.yml": "key-vault",
         "api/ManagedIdentityConnector*.yml": "azure-app-configuration",
-        "api/Microsoft.ApplicationInsights*.yml": "application-insights",
+        "api/Microsoft.ApplicationInsights*.yml": "azure-monitor",
         "api/Azure.Analytics.Purview.Account*.yml": "purview",
         "api/Azure.ResourceManager.EdgeOrder*.yml": "edgeorder",
         "api/Microsoft.Azure.AppConfiguration*.yml": "azure-app-configuration",

@@ -220,6 +220,9 @@
       ]
     },
     "fileMetadata": {
+      "ms.subservice": {
+        "api/Microsoft.ApplicationInsights*.yml": "application-insights"
+      },
       "ms.service": {
         "api/Azure.Communication.CallAutomation*.yml": "azure-communication-services",
         "api/Azure.Communication.CallingServer*.yml": "azure-communication-services",

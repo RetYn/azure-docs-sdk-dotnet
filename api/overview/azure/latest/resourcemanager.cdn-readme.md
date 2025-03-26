@@ -4,7 +4,7 @@ keywords: Azure, dotnet, SDK, API, Azure.ResourceManager.Cdn, cdn
 ms.date: 04/30/2024
 ms.topic: reference
 ms.devlang: dotnet
-ms.service: cdn
+ms.service: azure-cdn
 ---
 # Microsoft Azure Cdn management client library for .NET
 
